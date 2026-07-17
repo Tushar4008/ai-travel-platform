@@ -48,4 +48,4 @@ Build an AI-powered travel platform that helps users:
 
 ## Project Status
 
-🚧 Sprint 0 – Setup
+🚧 Sprint 1 – Python Fundamentals
