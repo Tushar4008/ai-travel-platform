@@ -1,0 +1,293 @@
+🎯 Learning Objectives
+
+By the end of this lesson, I should be able to:
+
+Understand Python syntax
+Create variables
+Identify Python data types
+Perform type conversion
+Use f-strings
+Check variable types using type()
+Understand Dynamic Typing
+Compare Java and Python basics
+💼 Business Requirement
+
+Every application needs to store data.
+
+For Wanderlust Wings, Python variables will be used to store:
+
+User Name
+Destination
+Package Price
+Booking Details
+Available Seats
+AI Prompts
+API Responses
+
+Variables are the foundation of every application.
+
+📚 Theory Notes
+1. What is Python?
+High-level programming language.
+Easy to read and write.
+Interpreted language.
+Dynamically typed.
+Popular for AI, Automation, Web Development and Data Science.
+2. Variables
+
+A variable is a named memory location used to store data.
+
+Java
+String city = "Goa";
+Python
+city = "Goa"
+
+Python automatically determines the variable type.
+
+3. Dynamic Typing
+
+Python determines the data type at runtime.
+
+Example
+
+x = 10
+x = "Hello"
+
+Both statements are valid.
+
+Unlike Java, variables can store different data types at different times.
+
+4. Data Types
+Data Type	Example
+int	10
+float	10.5
+str	"Hello"
+bool	True / False
+5. Printing Output
+print("Hello")
+
+Using f-string
+
+name = "Tushar"
+
+print(f"My name is {name}")
+
+Use f-strings whenever variables need to be displayed inside text.
+
+6. Type Checking
+price = 25000
+
+print(type(price))
+
+Output
+
+<class 'int'>
+7. Type Conversion
+age = "30"
+
+int(age)
+
+Other conversions
+
+str()
+float()
+bool()
+8. String Operations
+Concatenation
+"Go" + "a"
+
+Output
+
+Goa
+Repetition
+"Go" * 3
+
+Output
+
+GoGoGo
+9. Naming Convention
+
+Always use snake_case
+
+✅ Correct
+
+favorite_destination
+traveler_name
+
+❌ Incorrect
+
+Favorite_destination
+TravelerName
+☕ Java Developer's Perspective
+Java	Python
+Static Typing	Dynamic Typing
+System.out.println()	print()
+Integer.parseInt()	int()
+Variable Type Mandatory	Type Inferred Automatically
+Cannot change variable type	Variable type can change
+❌ Mistakes I Made
+Mistake 1
+
+I thought
+
+"10"
+
+was an integer.
+
+Correct Concept
+
+Anything inside quotes is a String.
+
+10 → int
+
+"10" → str
+Mistake 2
+
+I thought
+
+"5" * 3
+
+would perform multiplication.
+
+Correct Concept
+
+String × Integer repeats the string.
+
+"5" * 3
+
+Output
+
+555
+Mistake 3
+
+I expected
+
+"30" + "5"
+
+to produce
+
+30 5
+Correct Concept
+
++ joins strings without adding spaces.
+
+Output
+
+305
+⭐ Best Practices
+Use meaningful variable names.
+Follow snake_case naming convention.
+Prefer double quotes (") consistently for strings.
+Use f-strings for formatted output.
+Avoid duplicate variables storing the same information.
+Keep variable names descriptive.
+🎯 Interview Questions
+1. What is Dynamic Typing?
+
+Answer
+
+Python automatically determines the variable's data type during runtime.
+
+2. Difference between Static and Dynamic Typing?
+
+Answer
+
+Static Typing requires declaring the variable type before compilation (Java).
+
+Dynamic Typing determines the type during runtime (Python).
+
+3. Difference between 10 and "10"?
+
+Answer
+
+10 is an integer.
+
+"10" is a string.
+
+4. What does type() do?
+
+Answer
+
+Returns the data type of a variable.
+
+5. What is Type Conversion?
+
+Answer
+
+Changing one data type into another using built-in functions like int(), str(), float(), and bool().
+
+6. What is an f-string?
+
+Answer
+
+An f-string allows variables and expressions to be embedded inside a string using {}.
+
+7. Why is Python popular for AI?
+
+Answer
+
+Easy syntax
+Faster development
+Huge AI ecosystem
+Large community
+Excellent ML libraries
+8. What happens when a string is multiplied by an integer?
+
+Answer
+
+Python repeats the string that many times.
+
+Example
+
+"Go" * 3
+
+Output
+
+GoGoGo
+🌍 Wanderlust Wings Connection
+
+Today's concepts will be used to store:
+
+Package Name
+Destination
+Package Price
+User Information
+Booking Details
+API Responses
+AI Prompt Variables
+
+Every feature in the project starts with variables and data types.
+
+📝 One Minute Revision
+Python
+│
+├── Dynamic Typing
+├── Variables
+├── Data Types
+│   ├── int
+│   ├── float
+│   ├── str
+│   └── bool
+│
+├── print()
+├── f-strings
+├── type()
+├── int()
+├── str()
+├── String + → Concatenation
+├── String * → Repetition
+└── snake_case Naming
+🔑 Key Takeaways
+Python is dynamically typed.
+Variables do not require explicit type declaration.
+Everything inside quotes is a string.
+type() is used to check data types.
+int(), float(), str(), and bool() are used for type conversion.
++ concatenates strings.
+* repeats strings.
+Follow snake_case naming conventions.
+Use f-strings for readable output.
+Variables are the foundation of every Python application.
+✅ Day 1 Summary
+
+Today I learned the fundamentals of Python, including variables, dynamic typing, data types, string operations, type conversion, and f-strings. I also understood how Python differs from Java in handling variables and corrected common misconceptions about strings and string operations. These concepts form the foundation for building the Wanderlust Wings application and all future Python development.

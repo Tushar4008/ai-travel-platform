@@ -93,6 +93,25 @@ Every lesson will follow this process:
 
 ---
 
+# 📚 Lesson Completion Workflow
+
+Every lesson will end with the following deliverables:
+
+- ✅ Theory Notes
+- ✅ Hands-on Coding
+- ✅ Assignment
+- ✅ Senior Code Review
+- ✅ Quiz
+- ✅ Personalized Handwritten Notes
+- ✅ Common Mistakes & Corrections
+- ✅ Interview Questions with Short Answers
+- ✅ One-Minute Revision Cheat Sheet
+- ✅ Java vs Python Comparison (where applicable)
+- ✅ Wanderlust Wings Application
+- ✅ Best Practices
+
+---
+
 # 🚀 End Goal
 
 By following this approach, the repository will contain:
