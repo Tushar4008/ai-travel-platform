@@ -6,21 +6,29 @@
 ## Current Sprint
 **Sprint 0 – Foundation** (16 Jul – 22 Jul 2026)
 
-**Status:** 🟨 In Progress
+Current Sprint
 
-## Current Lesson
-Repository & Development Environment Setup
+Sprint 1 – Python Core
+
+Status
+
+🟨 In Progress
+
+Current Lesson
+
+Day 2 – Operators & Expressions
 
 ## Completed
-- GitHub repository created
-- Git initialized and connected
-- First commit & push
-- Project folder structure created
-- Roadmap created
+- Sprint 0 – Foundation
+- GitHub Repository Setup
+- Git Configuration
+- Project Structure
+- Learning Roadmap
+- Day 1 – Python Fundamentals
 
 ## Next Lesson
-Sprint 1 – Python Core
-Lesson 1: Python for Java Developers
+Day 2 – Operators & Expressions
 
 ## Next Goal
-Start Python fundamentals.
+Operators & Expressions.
+

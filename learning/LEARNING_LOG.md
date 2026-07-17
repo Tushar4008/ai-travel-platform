@@ -35,3 +35,37 @@ Sprint 0 – Foundation
 
 ### Next
 Sprint 1 – Python Core
+Day 1 – Python Fundamentals
+
+### Completed
+
+- Learned Python basics
+- Understood Variables
+- Learned Dynamic Typing
+- Learned Python Data Types
+- Learned Type Conversion
+- Practiced f-strings
+- Completed coding exercises
+- Completed assignment
+- Completed quiz
+- Senior code review completed
+
+### Learnings
+
+- Python uses Dynamic Typing.
+- Variables don't require explicit type declaration.
+- Strings are enclosed in quotes.
+- `type()` is used to determine variable type.
+- `+` concatenates strings.
+- `*` repeats strings.
+- Follow `snake_case` naming convention.
+
+### Mistakes Corrected
+
+- Mistook `"10"` for an integer instead of a string.
+- Expected `"5" * 3` to perform multiplication instead of string repetition.
+- Expected `"30" + "5"` to include spaces instead of concatenating directly.
+
+### Next Lesson
+
+Day 2 – Operators & Expressions
