@@ -1,0 +1,282 @@
+📖 Day 2 - Operators & Expressions
+🎯 Learning Objectives
+
+By the end of this lesson, I should be able to:
+
+Understand different types of operators in Python.
+Perform arithmetic calculations.
+Compare values using comparison operators.
+Combine conditions using logical operators.
+Update variables using assignment operators.
+Check values using membership operators.
+Differentiate between equality and identity operators.
+Understand operator precedence.
+💼 Business Requirement
+
+Every software application makes decisions based on conditions.
+
+In Wanderlust Wings, operators will help determine:
+
+Whether a traveler is eligible to book a package.
+Whether the traveler has sufficient budget.
+Whether seats are available.
+Whether the traveler has a valid passport.
+Whether a destination exists.
+Whether two variables refer to the same object.
+
+Operators form the foundation of application logic.
+
+📚 Theory Notes
+1. What is an Operator?
+
+An operator is a symbol that performs an operation on one or more values (operands).
+
+Example
+
+5 + 3
+5 and 3 are operands.
++ is the operator.
+2. Arithmetic Operators
+Operator	Description	Example
++	Addition	5 + 2 = 7
+-	Subtraction	5 - 2 = 3
+*	Multiplication	5 * 2 = 10
+/	Division	5 / 2 = 2.5
+//	Floor Division	5 // 2 = 2
+%	Modulus (Remainder)	5 % 2 = 1
+**	Exponent (Power)	5 ** 2 = 25
+3. Comparison Operators
+
+Comparison operators return a Boolean (True or False).
+
+Operator	Meaning
+==	Equal
+!=	Not Equal
+>	Greater Than
+<	Less Than
+>=	Greater Than or Equal
+<=	Less Than or Equal
+
+Example
+
+budget >= package_price
+4. Logical Operators
+
+Logical operators combine multiple conditions.
+
+Operator	Meaning
+and	All conditions must be True
+or	At least one condition must be True
+not	Reverses the Boolean value
+
+Example
+
+budget >= package_price and passport_available
+5. Assignment Operators
+
+Assignment operators update variable values.
+
+Operator	Example
+=	x = 10
++=	x += 5
+-=	x -= 5
+*=	x *= 2
+/=	x /= 2
+6. Membership Operators
+
+Used to check whether a value exists in a sequence.
+
+Operator	Meaning
+in	Exists
+not in	Does Not Exist
+
+Example
+
+"Thai" in destination
+7. Identity Operators
+
+Identity operators compare object identity (memory reference).
+
+Operator	Meaning
+is	Same object
+is not	Different object
+
+Example
+
+a is b
+8. Operator Precedence
+
+Python follows PEMDAS/BODMAS.
+
+Example
+
+10 + 5 * 2
+
+Output
+
+20
+
+Use parentheses to improve readability.
+
+☕ Java Developer's Perspective
+Java	Python
+/ between integers returns integer	/ always returns float
+Integer division	//
+% returns remainder	Same as Java
+== compares primitive values	== compares values
+== on objects compares references	is compares object identity
+❌ Mistakes I Made
+Mistake 1
+
+I stored numeric values as strings.
+
+budget = "15000"
+package_price = "10000"
+Correct Concept
+
+Budget and price should be numeric.
+
+budget = 15000
+package_price = 10000
+Mistake 2
+
+I wrote
+
+passport_available == True
+Correct Concept
+
+Since passport_available is already a Boolean, simply write:
+
+passport_available
+Mistake 3
+
+I used
+
+age > 18
+Correct Concept
+
+Business requirement:
+
+18 or above
+
+Correct
+
+age >= 18
+Mistake 4
+
+I incorrectly predicted
+
+False or True
+
+Output.
+
+Correct Concept
+False or True
+
+returns
+
+True
+Mistake 5
+
+I incorrectly commented
+
+5000 - 5000
+
+as
+
+5000
+
+Correct Output
+
+0
+⭐ Best Practices
+Store numbers as numeric data types.
+Store Boolean values as True or False.
+Avoid writing == True or == False.
+Use parentheses to improve readability in complex conditions.
+Keep business logic simple and readable.
+Prefer available_seats > 0 over available_seats >= 1.
+🎯 Interview Questions with Short Answers
+1. Difference between / and //?
+
+Answer
+
+/ performs normal division and returns a float.
+// performs floor division and returns the integer quotient.
+2. Difference between == and is?
+
+Answer
+
+== compares values.
+is compares whether two variables reference the same object.
+3. What does % do?
+
+Answer
+
+Returns the remainder after division.
+
+4. Difference between and and or?
+
+Answer
+
+and returns True only if all conditions are True.
+or returns True if at least one condition is True.
+5. What does not do?
+
+Answer
+
+Reverses a Boolean value.
+
+Example
+
+not True
+
+returns
+
+False
+6. Difference between = and ==?
+
+Answer
+
+= assigns a value.
+== compares two values.
+7. What is Operator Precedence?
+
+Answer
+
+The order in which Python evaluates operators in an expression.
+
+8. When are Membership Operators used?
+
+Answer
+
+To check whether a value exists inside a sequence such as a string, list, or tuple.
+
+🌍 Wanderlust Wings Connection
+
+Operators will be used to:
+
+Validate booking eligibility.
+Compare travel budgets with package prices.
+Check seat availability.
+Validate user inputs.
+Search destinations.
+Apply discounts.
+Build decision-making logic in the booking system.
+
+
+🔑 Key Takeaways
+Operators perform operations on values.
+Arithmetic operators are used for calculations.
+Comparison operators return Boolean values.
+Logical operators combine multiple conditions.
+Assignment operators update variables.
+Membership operators check whether a value exists in a sequence.
+Identity operators compare object references.
+/ returns a float, while // performs floor division.
+Use == to compare values and is to compare object identity.
+Operators are essential for implementing business logic.
+
+✅ Day 2 Summary
+
+Today I learned how Python operators help implement business rules and decision-making. I practiced arithmetic, comparison, logical, assignment, membership, and identity operators by building a Booking Eligibility program. I also learned the importance of choosing the correct data type, writing clean Boolean expressions, and understanding the difference between value comparison and object identity.

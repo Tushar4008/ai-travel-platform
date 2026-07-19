@@ -66,6 +66,42 @@ Day 1 – Python Fundamentals
 - Expected `"5" * 3` to perform multiplication instead of string repetition.
 - Expected `"30" + "5"` to include spaces instead of concatenating directly.
 
+Day 2 – Operators & Expressions
+
+### Completed
+
+- Learned Arithmetic Operators
+- Learned Comparison Operators
+- Learned Logical Operators
+- Learned Assignment Operators
+- Learned Membership Operators
+- Learned Identity Operators
+- Learned Operator Precedence
+- Completed Hands-on Coding
+- Built Booking Eligibility Program
+- Completed Assignment
+- Completed Quiz
+- Senior Code Review Completed
+
+### Learnings
+
+- `/` always returns a float.
+- `//` performs floor division.
+- `%` returns the remainder.
+- `**` is used for exponentiation.
+- `==` compares values.
+- `is` compares object identity.
+- `and`, `or`, and `not` are used to combine or negate conditions.
+- Operators are the foundation of decision-making in software.
+
+### Mistakes Corrected
+
+- Stored numeric values (`budget`, `package_price`) as strings instead of integers.
+- Used `passport_available == True` instead of simply `passport_available`.
+- Used `age > 18` instead of `age >= 18` for the business requirement.
+- Incorrectly commented the output of `False or True`.
+- Incorrectly commented the result of `5000 - 5000`.
+
 ### Next Lesson
 
-Day 2 – Operators & Expressions
+Day 3 – User Input & Strings
