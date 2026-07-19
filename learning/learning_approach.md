@@ -6,19 +6,35 @@ The objective is not only to understand a technology but also to apply it in a r
 
 Every sprint will follow the same workflow:
 
-```text
+Business Requirement
+        ↓
 Theory
-    ↓
-Mini Project
-    ↓
-Code Review
-    ↓
+        ↓
+Java vs Python Comparison (when applicable)
+        ↓
+Hands-on Coding
+        ↓
+Assignment
+        ↓
+🧠 Daily Coding Challenge
+        ↓
+Quiz
+        ↓
+Senior Code Review
+        ↓
+Tech Lead Review
+        ↓
+Handwritten Notes
+        ↓
+GitHub Notes
+        ↓
 Interview Questions
-    ↓
+        ↓
 Wanderlust Wings Implementation
-    ↓
+        ↓
 Refactoring & Best Practices
-```
+        ↓
+Git Commit & Push
 
 ## Stage 1 – Learn the Technology
 

@@ -52,6 +52,26 @@ Every topic learned should directly contribute to the Wanderlust Wings platform.
 
 ---
 
+# 🧠 Daily Coding Challenges
+
+Every lesson includes one coding challenge designed to reinforce the day's topic.
+
+These challenges gradually build:
+
+- Problem-solving
+- Algorithmic thinking
+- Clean coding
+- Interview confidence
+
+The challenges start with beginner-friendly exercises and progressively introduce patterns commonly seen in coding interviews.
+
+By the end of the roadmap, I should be comfortable solving:
+
+- 120+ Easy problems
+- 70–100 Medium problems
+
+without requiring a separate LeetCode roadmap.
+
 # 🗓 Roadmap
 
 | Sprint    | Theme                   | Duration                  | Status         |
@@ -403,6 +423,7 @@ Automated Testing Suite
 
 * Quiz
 * Interview questions
+* Coding Challenge Review
 * Revision
 
 ### Saturday
@@ -410,6 +431,7 @@ Automated Testing Suite
 * Project development
 * Code review
 * Refactoring
+* Leetcode Pattern Practice
 
 ### Sunday
 
