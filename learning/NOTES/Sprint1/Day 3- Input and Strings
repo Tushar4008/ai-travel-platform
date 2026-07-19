@@ -1,0 +1,362 @@
+📘 Sprint 1 – Python Core
+📖 Day 3 – User Input & Strings
+🎯 Learning Objectives
+
+By the end of this lesson, I should be able to:
+
+Accept user input using input().
+Understand why input() always returns a string.
+Convert user input to the required data type.
+Work with string indexing and slicing.
+Use commonly used string methods.
+Build interactive console applications.
+💼 Business Requirement
+
+Real-world applications don't use hardcoded values.
+
+Applications like Wanderlust Wings must accept user information such as:
+
+Traveler Name
+Age
+Destination
+Budget
+Passport Availability
+
+User input allows applications to interact with users dynamically.
+
+📚 Theory Notes
+1. input() Function
+
+input() is used to accept data from the user.
+
+Example
+
+name = input("Enter your name: ")
+
+The program waits until the user enters a value and presses Enter.
+
+2. Important Rule
+
+input() always returns a string.
+
+Example
+
+User enters
+
+30
+
+Python stores it as
+
+"30"
+
+not
+
+30
+
+Always convert input to the correct data type when needed.
+
+3. Type Conversion
+
+Convert input to integer
+
+age = int(input("Enter Age: "))
+
+Convert input to float
+
+price = float(input("Enter Price: "))
+
+Convert yes/no input to Boolean
+
+passport_available = input().strip().lower() == "yes"
+4. Strings
+
+A string is a sequence of characters.
+
+Example
+
+destination = "Thailand"
+5. String Indexing
+
+Each character has an index.
+
+T h a i l a n d
+0 1 2 3 4 5 6 7
+
+Example
+
+destination[0]
+
+Output
+
+T
+
+Negative Index
+
+destination[-1]
+
+Output
+
+d
+6. String Slicing
+
+Syntax
+
+string[start:end]
+
+Example
+
+destination[1:4]
+
+Output
+
+hai
+
+End index is excluded.
+
+7. Common String Methods
+Upper Case
+name.upper()
+Lower Case
+name.lower()
+Title Case
+name.title()
+Remove Spaces
+name.strip()
+Find Length
+len(name)
+Replace
+city.replace("Goa", "Thailand")
+Find
+city.find("land")
+
+Returns the starting index if found, otherwise -1.
+
+Starts With
+city.startswith("Thai")
+Ends With
+city.endswith("land")
+☕ Java Developer's Perspective
+Java	Python
+Scanner class	input()
+nextInt()	int(input())
+nextLine()	input()
+String.length()	len(string)
+substring()	String slicing [start:end]
+toUpperCase()	upper()
+toLowerCase()	lower()
+❌ Mistakes I Made
+Mistake 1
+
+Variable naming
+
+I used
+
+favorite_Destination
+Correct
+
+Use snake_case
+
+favorite_destination
+Mistake 2
+
+Output Formatting
+
+I printed values without labels.
+
+Example
+
+print(len(name))
+Better
+print(f"Length of Name: {len(name)}")
+
+Readable output is always preferred.
+
+Mistake 3
+
+Repeated Code
+
+I called strip() separately for every variable.
+
+This is fine for now.
+
+Later we'll learn functions and loops to reduce repetition.
+
+⭐ Best Practices
+Always convert user input to the required data type.
+Use strip() to remove unwanted spaces.
+Use lower() before comparing user input.
+Follow snake_case naming convention.
+Use meaningful variable names.
+Format output with descriptive labels.
+Validate user input in real-world applications.
+🎯 Interview Questions with Short Answers
+1. What does input() return?
+
+Answer
+
+input() always returns a string.
+
+2. Why do we use int(input())?
+
+Answer
+
+To convert user input from a string to an integer.
+
+3. Difference between input() and print()?
+
+Answer
+
+input() receives data from the user.
+print() displays data to the user.
+4. What is String Indexing?
+
+Answer
+
+Accessing individual characters of a string using their index.
+
+Example
+
+name[0]
+5. Difference between Indexing and Slicing?
+
+Answer
+
+Indexing returns a single character.
+Slicing returns a substring.
+6. What does strip() do?
+
+Answer
+
+Removes leading and trailing spaces from a string.
+
+7. Difference between upper(), lower() and title()?
+
+Answer
+
+upper() converts all characters to uppercase.
+lower() converts all characters to lowercase.
+title() capitalizes the first letter of each word.
+8. What does len() return?
+
+Answer
+
+Returns the number of characters in a string.
+
+9. Difference between find() and replace()?
+
+Answer
+
+find() returns the index of a substring.
+replace() replaces one substring with another.
+10. What happens if int("abc") is executed?
+
+Answer
+
+Python raises a ValueError because "abc" cannot be converted to an integer.
+
+🌍 Wanderlust Wings Connection
+
+Today's concepts will be used in:
+
+User Registration
+Login Forms
+Booking Forms
+Search Forms
+Package Filters
+AI Prompt Collection
+Customer Feedback Forms
+
+Every interactive application starts by accepting user input.
+
+📝 One Minute Revision
+User Input
+│
+├── input()
+│
+├── Type Conversion
+│   ├── int()
+│   ├── float()
+│   ├── bool()
+│
+├── Strings
+│   ├── Indexing
+│   ├── Slicing
+│   ├── len()
+│   ├── upper()
+│   ├── lower()
+│   ├── title()
+│   ├── strip()
+│   ├── replace()
+│   ├── find()
+│   ├── startswith()
+│   └── endswith()
+🔑 Key Takeaways
+input() always returns a string.
+Convert user input to the required data type.
+Strings support indexing and slicing.
+Use strip() to remove extra spaces.
+Use lower() for case-insensitive comparisons.
+Use title() for proper formatting of names and destinations.
+len() returns the number of characters.
+find() returns the index of a substring.
+replace() substitutes one string with another.
+User input is the foundation of interactive applications.
+🔥 Common Interview Traps
+
+❌ Assuming input() returns an integer.
+
+✔ input() always returns a string.
+
+❌ Forgetting to convert input before performing arithmetic.
+
+age = input("Age: ")
+
+age + 5 ❌
+
+Correct
+
+age = int(input("Age: "))
+
+❌ Confusing indexing with slicing.
+
+name[2]
+
+returns one character.
+
+name[2:5]
+
+returns a substring.
+
+❌ Forgetting to use strip() before comparing user input.
+
+" yes "
+
+is not equal to
+
+"yes"
+
+unless strip() is used.
+
+❌ Case-sensitive comparisons.
+
+Always use
+
+user_input.strip().lower()
+
+before comparing text entered by users.
+
+✅ Day 3 Summary
+
+Today I learned how to build interactive Python programs by accepting user input using input(). I practiced converting user input into appropriate data types, working with strings through indexing, slicing, and common string methods, and formatting user information for display. I also learned how to safely compare user input using strip() and lower(), which are essential practices for building robust real-world applications.
+
+⭐ Tech Lead Notes
+
+This was your strongest lesson so far. More importantly, I noticed a shift in your thinking: you're beginning to write Pythonic code instead of translating Java concepts directly. Your Boolean conversion using:
+
+passport_available = passport_available.strip().lower() == "yes"
+
+is a great example of clean, idiomatic Python. Continue focusing on readable code, consistent snake_case naming, and thinking about edge cases (such as invalid user input). Those habits will become invaluable when we move to APIs, databases, and AI applications.
+
+📌 Mentor Note
+
+From Day 4 onward, our assignments will start resembling real software features rather than isolated exercises. We'll begin combining everything you've learned so far—variables, operators, user input, and strings—to build decision-making logic, taking another step toward the Expense Tracker CLI and eventually the Wanderlust Wings platform.

@@ -102,6 +102,45 @@ Day 2 – Operators & Expressions
 - Incorrectly commented the output of `False or True`.
 - Incorrectly commented the result of `5000 - 5000`.
 
-### Next Lesson
+### Sprint
+
+Sprint 1 – Python Core
+
+### Lesson
 
 Day 3 – User Input & Strings
+
+### Completed
+
+- Learned the `input()` function
+- Understood that `input()` always returns a string
+- Practiced type conversion using `int()`
+- Learned string indexing
+- Learned string slicing
+- Learned common string methods
+- Built an interactive Traveler Details program
+- Built a Travel Profile application
+- Completed assignment
+- Completed quiz
+- Senior code review completed
+
+### Learnings
+
+- `input()` always returns a string.
+- User input should be converted to the required data type.
+- Strings support indexing and slicing.
+- `strip()` removes leading and trailing spaces.
+- `title()` formats names and destinations.
+- `lower()` helps perform case-insensitive comparisons.
+- `startswith()` and `endswith()` are useful for string validation.
+- Interactive programs collect input from users instead of relying on hardcoded values.
+
+### Mistakes Corrected
+
+- Used `favorite_Destination` instead of `favorite_destination` (snake_case).
+- Printed values without descriptive labels.
+- Repeated `strip()` calls for multiple variables instead of recognizing opportunities for future refactoring.
+
+### Next Lesson
+
+Day 4 – Control Statements (if, elif, else)

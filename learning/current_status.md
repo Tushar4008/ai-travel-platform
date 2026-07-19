@@ -9,7 +9,7 @@
 **Status:** 🟨 In Progress
 
 ## Current Lesson
-Day 3 – User Input & Strings
+Day 4 – Control Statements (if, elif, else)
 
 ## Completed
 - Sprint 0 – Foundation
@@ -19,9 +19,10 @@ Day 3 – User Input & Strings
 - Roadmap & Learning Documentation
 - Day 1 – Python Fundamentals
 - Day 2 – Operators & Expressions
+- Day 3 – User Input & Strings
 
 ## Next Lesson
-Day 3 – User Input & Strings
+Day 4 – Control Statements (if, elif, else)
 
 ## Next Goal
-Learn how to accept user input, perform type conversion on input values, and work with Python strings to build interactive console applications.
+Learn decision-making in Python using conditional statements and build business logic for real-world scenarios.

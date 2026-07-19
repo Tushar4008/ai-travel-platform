@@ -1,0 +1,11 @@
+traveler_name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+destination = input("Enter your destination: ")
+budget = int(input("Enter your budget in rupees: "))
+
+print("\nTraveler details- ")
+print("----------------")
+print(f"Traveler name- {traveler_name}")
+print(f"Traveler age- {age}")
+print(f"Destination- {destination}")
+print(f"Travler budget- {budget}")
