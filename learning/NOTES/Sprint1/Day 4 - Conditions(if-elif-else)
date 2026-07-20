@@ -1,0 +1,353 @@
+📖 Day 4 – Control Statements (if, elif, else)
+🎯 Learning Objectives
+
+By the end of this lesson, I should be able to:
+
+Use if, elif, and else statements.
+Build decision-making logic.
+Write nested if statements.
+Translate business requirements into code.
+Understand the importance of indentation.
+Combine conditions using logical operators.
+💼 Business Requirement
+
+Software must make decisions based on user input.
+
+In Wanderlust Wings, conditional statements will be used to:
+
+Validate booking eligibility.
+Recommend travel packages.
+Check passport availability.
+Verify age restrictions.
+Apply discounts and offers.
+Control application flow.
+
+Decision-making is one of the most fundamental concepts in programming.
+
+📚 Theory Notes
+1. if Statement
+
+The if statement executes a block of code only if the condition is True.
+
+Example
+
+budget = 50000
+
+if budget >= 30000:
+    print("Booking Allowed")
+2. if...else
+
+Use else when there are exactly two possible outcomes.
+
+Example
+
+if budget >= 30000:
+    print("Booking Allowed")
+else:
+    print("Insufficient Budget")
+3. if...elif...else
+
+Use elif when multiple conditions need to be checked.
+
+Example
+
+if budget >= 100000:
+    package = "Luxury"
+
+elif budget >= 50000:
+    package = "Premium"
+
+elif budget >= 20000:
+    package = "Standard"
+
+else:
+    package = "Budget"
+4. Nested if
+
+A nested if is an if statement inside another if.
+
+Example
+
+if passport_available:
+
+    if budget >= 50000:
+        print("International Package")
+
+    else:
+        print("Increase Budget")
+
+Nested conditions are useful when one decision depends on another.
+
+5. Indentation
+
+Python uses indentation instead of braces {}.
+
+Correct
+
+if True:
+    print("Hello")
+
+Incorrect
+
+if True:
+print("Hello")
+
+Incorrect indentation causes an IndentationError.
+
+6. Decision Flow
+
+Business logic should follow a clear sequence of decisions.
+
+Example
+
+Age
+ │
+ ├── <18
+ │      ↓
+ │ Booking Not Allowed
+ │
+ └── ≥18
+        │
+        ▼
+Passport?
+        │
+   Yes / No
+        │
+        ▼
+Recommend Package
+☕ Java Developer's Perspective
+Java	Python
+{} define blocks	Indentation defines blocks
+if(condition){}	if condition:
+else if	elif
+Nested if	Same concept
+Braces mandatory	Indentation mandatory
+❌ Mistakes I Made
+Mistake 1
+
+I used multiple independent if statements for budget ranges.
+
+if budget >= 100000:
+...
+
+if budget >= 50000:
+...
+Correct Concept
+
+Since only one package should be selected, use:
+
+if ...
+elif ...
+elif ...
+else ...
+
+This improves readability and avoids unnecessary condition checks.
+
+Mistake 2
+
+I initially used separate top-level if statements.
+
+if age < 18:
+
+if not passport_available:
+
+if age >= 18 and passport_available:
+Correct Concept
+
+These conditions are mutually exclusive.
+
+Use:
+
+if ...
+
+elif ...
+
+else ...
+Mistake 3
+
+Variables like booking_status and recommended_package were not initialized.
+
+Correct Concept
+
+Initialize variables before conditional blocks.
+
+booking_status = ""
+recommended_package = ""
+
+This avoids potential runtime errors and improves maintainability.
+
+Mistake 4
+
+Initially, I compared the first character using:
+
+name[0] == "T"
+Better Approach
+name.startswith("T")
+
+This is more readable and expressive.
+
+⭐ Best Practices
+Use elif when only one condition should execute.
+Use nested if only when one decision depends on another.
+Initialize variables before conditional logic.
+Follow business rules in the same order they are defined.
+Use meaningful variable names.
+Keep conditions simple and readable.
+Use descriptive output messages for users.
+🎯 Interview Questions with Short Answers
+1. What is an if statement?
+
+Answer
+
+Executes a block of code only when the condition is True.
+
+2. Difference between if and elif?
+
+Answer
+
+if starts a conditional block.
+elif checks another condition only if previous conditions were False.
+3. Difference between multiple if statements and if-elif-else?
+
+Answer
+
+Multiple if statements are evaluated independently.
+if-elif-else stops checking after the first matching condition.
+4. What is a nested if?
+
+Answer
+
+An if statement inside another if statement.
+
+5. Why is indentation important?
+
+Answer
+
+Indentation defines code blocks in Python. Incorrect indentation causes an IndentationError.
+
+6. Can an if exist without an else?
+
+Answer
+
+Yes. The else block is optional.
+
+7. When should you use elif?
+
+Answer
+
+When multiple mutually exclusive conditions need to be checked.
+
+8. Difference between nested if and using and?
+
+Answer
+
+Use and when conditions are directly related.
+Use nested if when one decision depends on the result of another.
+🌍 Wanderlust Wings Connection
+
+Today's concepts will power:
+
+Booking validation
+Package recommendation engine
+International travel eligibility
+Discount rules
+AI itinerary selection
+Membership benefits
+Dynamic pricing decisions
+
+Decision-making logic is at the heart of every business application.
+
+📝 One Minute Revision
+Control Statements
+│
+├── if
+├── else
+├── elif
+├── Nested if
+│
+├── Logical Operators
+│   ├── and
+│   ├── or
+│   └── not
+│
+├── Comparison Operators
+│
+└── Indentation
+🔑 Key Takeaways
+if executes code only when a condition is True.
+else handles the remaining case.
+elif is used for multiple mutually exclusive conditions.
+Nested if is useful for dependent decisions.
+Indentation defines code blocks in Python.
+Initialize variables before conditional logic.
+Use elif to avoid unnecessary condition checks.
+Write conditions that clearly reflect business rules.
+🔥 Common Interview Traps
+
+❌ Using multiple if statements instead of elif for mutually exclusive conditions.
+
+❌ Forgetting to initialize variables before using them.
+
+❌ Writing deeply nested if statements when simpler logic is possible.
+
+❌ Confusing elif with a new if.
+
+Remember:
+
+if → starts the decision chain
+
+elif → continues the same decision chain
+
+else → handles everything else
+
+❌ Incorrect indentation.
+
+Python uses indentation to define program structure.
+
+🧠 Daily Coding Challenge
+Problem
+
+Determine whether a number is:
+
+Positive
+Negative
+Zero
+Pattern
+
+Decision Making
+
+Time Complexity
+
+O(1)
+
+Space Complexity
+
+O(1)
+
+Related Interview Topic
+
+Conditional Logic
+
+🔁 Revision Coding Challenge
+Problem
+
+Accept a user's name, remove extra spaces, convert it to Title Case, and greet them differently if the name starts with "T".
+
+Concepts Revised
+input()
+strip()
+title()
+startswith()
+if
+
+This reinforces Days 1–3 while introducing conditions.
+
+✅ Day 4 Summary
+
+Today I learned how to make programs take decisions using if, elif, else, and nested if statements. I translated business requirements into code by building a Travel Package Recommender, reinforcing the importance of writing clear decision flows, using elif for mutually exclusive conditions, initializing variables before use, and following Python's indentation rules. I also solved my first interview-style coding challenge focused on decision making.
+
+⭐ Tech Lead Notes
+
+This was the lesson where you stopped thinking in terms of individual Python statements and started thinking in terms of business workflows. Your final solution showed a clear improvement after refactoring: you replaced multiple independent if statements with a proper if-elif-else chain and initialized variables before use—both habits that are common in production-quality code.
+
+The next step in your journey is Loops. Once we combine loops with conditions, your programs will become much more powerful because they'll be able to process multiple pieces of data instead of making a single decision.

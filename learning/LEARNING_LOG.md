@@ -141,6 +141,73 @@ Day 3 – User Input & Strings
 - Printed values without descriptive labels.
 - Repeated `strip()` calls for multiple variables instead of recognizing opportunities for future refactoring.
 
-### Next Lesson
+## Day 5 | 20 Jul 2026
+
+### Sprint
+
+Sprint 1 – Python Core
+
+### Lesson
 
 Day 4 – Control Statements (if, elif, else)
+
+### Completed
+
+- Learned `if` statements
+- Learned `if-else`
+- Learned `if-elif-else`
+- Learned Nested `if`
+- Understood Python indentation
+- Built Travel Package Eligibility program
+- Built Travel Package Recommender
+- Completed Daily Coding Challenge
+- Completed Revision Coding Challenge
+- Completed Quiz
+- Senior Code Review Completed
+- Tech Lead Review Completed
+- Refactored assignment after code review
+
+### Learnings
+
+- `if` executes code only when a condition is `True`.
+- `elif` is used when checking multiple mutually exclusive conditions.
+- `else` handles the remaining case.
+- Nested `if` is useful when one decision depends on another.
+- Proper indentation is mandatory in Python.
+- Business requirements should be translated into a logical decision flow.
+- Initializing variables before conditional blocks improves code reliability.
+
+### Mistakes Corrected
+
+- Replaced multiple independent `if` statements with `if-elif-else`.
+- Replaced `traveler_age > 17` with `traveler_age >= 18`.
+- Initialized `booking_status` and `recommended_package` before using them.
+- Corrected the quiz answer for the `if-elif-else` execution flow.
+- Improved code readability by restructuring business logic.
+
+### Daily Coding Challenge
+
+**Problem:** Check whether a number is Positive, Negative or Zero.
+
+**Difficulty:** ⭐ Easy
+
+**Pattern:** Decision Making
+
+**Time Complexity:** O(1)
+
+**Space Complexity:** O(1)
+
+### Revision Coding Challenge
+
+Revised concepts from:
+
+- User Input
+- String Methods
+- `startswith()`
+- `strip()`
+- `title()`
+- `if` Statements
+
+### Next Lesson
+
+Day 5 – Loops (`for` & `while`)

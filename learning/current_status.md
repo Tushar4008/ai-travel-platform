@@ -9,7 +9,7 @@
 **Status:** 🟨 In Progress
 
 ## Current Lesson
-Day 4 – Control Statements (if, elif, else)
+Day 5 – Loops (for & while)
 
 ## Completed
 - Sprint 0 – Foundation
@@ -17,12 +17,15 @@ Day 4 – Control Statements (if, elif, else)
 - Git Configuration
 - Project Structure
 - Roadmap & Learning Documentation
+- Learning Workflow v2
+- Daily Coding Challenges Added
 - Day 1 – Python Fundamentals
 - Day 2 – Operators & Expressions
 - Day 3 – User Input & Strings
+- Day 4 – Control Statements (if, elif, else)
 
 ## Next Lesson
-Day 4 – Control Statements (if, elif, else)
+Day 5 – Loops (for & while)
 
 ## Next Goal
-Learn decision-making in Python using conditional statements and build business logic for real-world scenarios.
+Learn iteration using `for` and `while` loops, solve repetition-based problems, and introduce refactoring, time complexity, and interview pattern recognition.
