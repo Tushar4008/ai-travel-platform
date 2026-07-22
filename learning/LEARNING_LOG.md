@@ -208,6 +208,114 @@ Revised concepts from:
 - `title()`
 - `if` Statements
 
-### Next Lesson
-
 Day 5 – Loops (`for` & `while`)
+
+---
+
+## Completed
+
+- Learned `for` loops
+- Learned `while` loops
+- Learned `range()`
+- Learned nested loops
+- Understood infinite loops
+- Printed multiplication tables
+- Built Travel Package Viewer
+- Solved FizzBuzz
+- Completed Daily Coding Challenge
+- Completed Revision Coding Challenge
+- Completed Refactoring Challenge
+- Completed Quiz
+- Senior Code Review Completed
+- Tech Lead Review Completed
+
+---
+
+## Learnings
+
+- `for` loops are used when the number of iterations is known.
+- `while` loops are used when repetition depends on a condition.
+- `range(start, stop, step)` controls loop execution.
+- Strings are iterable.
+- Nested loops allow multi-level iteration.
+- Infinite loops occur when loop conditions never become false.
+- Every loop should be analyzed for efficiency.
+
+---
+
+## Mistakes Corrected
+
+- Learned that `range()` excludes the stop value.
+- Improved variable naming for readability.
+- Learned the importance of checking combined conditions first in FizzBuzz.
+- Improved output formatting for better readability.
+- Understood that not every algorithm can be further optimized.
+
+---
+
+## Daily Coding Challenge
+
+### Problem
+
+FizzBuzz
+
+### Difficulty
+
+⭐ Easy
+
+### Pattern
+
+Iteration + Conditional Logic
+
+### Time Complexity
+
+O(n)
+
+### Space Complexity
+
+O(1)
+
+### Optimization
+
+Already optimal because every number must be processed once.
+
+---
+
+## Revision Coding Challenge
+
+Revised concepts from:
+
+- Variables
+- Input
+- Strings
+- Conditional Statements
+- Loops
+
+---
+
+## Tech Lead Feedback
+
+Today's work demonstrated a shift from writing individual statements to recognizing algorithmic patterns.
+
+Highlights:
+
+- Correct implementation of FizzBuzz by checking the combined condition first.
+- Good understanding of `for` vs `while`.
+- Clean loop implementation.
+- Strong improvement in writing readable and maintainable code.
+
+---
+
+## Next Lesson
+
+Day 6 – Lists
+
+Topics:
+
+- Creating Lists
+- Indexing
+- Slicing
+- Updating Lists
+- List Methods
+- Iterating through Lists
+- Nested Lists
