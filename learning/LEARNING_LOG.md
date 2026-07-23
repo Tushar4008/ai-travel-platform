@@ -305,17 +305,133 @@ Highlights:
 - Strong improvement in writing readable and maintainable code.
 
 ---
+# Day 7 | 23 Jul 2026
 
-## Next Lesson
+## Sprint
+
+Sprint 1 – Python Core
+
+---
+
+## Lesson
 
 Day 6 – Lists
 
+---
+
+## Completed
+
+- Learned what Lists are
+- Created Lists
+- Used Positive & Negative Indexing
+- Updated List elements
+- Used append()
+- Used insert()
+- Used remove()
+- Used pop()
+- Used len()
+- Used Membership Operator (`in`)
+- Iterated through Lists
+- Completed Travel Package Manager
+- Completed Daily Coding Challenge
+- Completed Revision Coding Challenge
+- Completed Refactoring Review
+- Completed Quiz
+- Senior Code Review Completed
+- Tech Lead Review Completed
+
+---
+
+## Learnings
+
+- Lists are ordered and mutable.
+- Lists can store multiple values in one variable.
+- Indexing starts at 0.
+- Negative indexing accesses elements from the end.
+- append() adds an element to the end of a List.
+- insert() adds an element at a specific position.
+- remove() deletes an element by value.
+- pop() removes an element by index and returns it.
+- len() returns the total number of elements.
+- The `in` operator checks whether an element exists in a List.
+- Lists are commonly processed using loops.
+
+---
+
+## Mistakes Corrected
+
+- Removed an unnecessary duplicate `print()` statement.
+- Learned not to overwrite Python built-in function names like `sum`.
+- Improved understanding of user input normalization for case-insensitive searches.
+- Improved code readability by using clearer variable names.
+
+---
+
+## Daily Coding Challenge
+
+### Problem
+
+Calculate the sum of all numbers in a List without using the built-in `sum()` function.
+
+### Difficulty
+
+⭐ Easy
+
+### Pattern
+
+Iteration + Accumulator
+
+### Time Complexity
+
+O(n)
+
+### Space Complexity
+
+O(1)
+
+### Optimization
+
+Already optimal because every element must be visited exactly once.
+
+---
+
+## Revision Coding Challenge
+
+Revised concepts from:
+
+- Variables
+- User Input
+- Strings
+- Conditional Statements
+- Loops
+- Lists
+
+---
+
+## Tech Lead Feedback
+
+Today's lesson marked an important transition from working with single values to managing collections of data.
+
+Highlights:
+
+- Correct use of List methods.
+- Strong understanding of indexing.
+- Proper use of loops to process Lists.
+- Good implementation of membership checks using the `in` operator.
+- Improvement in writing cleaner and more maintainable code.
+- Introduction to writing production-style collection handling.
+
+---
+
+## Next Lesson
+
+Day 7 – Tuples
+
 Topics:
 
-- Creating Lists
-- Indexing
-- Slicing
-- Updating Lists
-- List Methods
-- Iterating through Lists
-- Nested Lists
+- Creating Tuples
+- Packing & Unpacking
+- Immutable Objects
+- List vs Tuple
+- Returning Multiple Values
+- Practical Use Cases

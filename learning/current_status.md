@@ -15,13 +15,14 @@
 
 ## Current Lesson
 
-**Day 6 – Lists**
+**Day 7 – Tuples**
 
 ---
 
 ## Completed
 
 ### Sprint 0 – Foundation
+
 - ✅ GitHub Repository Setup
 - ✅ Git Configuration
 - ✅ Project Folder Structure
@@ -30,6 +31,8 @@
 - ✅ LEARNING_LOG.md
 - ✅ LEARNING_APPROACH.md
 
+---
+
 ### Sprint 1 – Python Core
 
 - ✅ Day 1 – Python Fundamentals
@@ -37,51 +40,85 @@
 - ✅ Day 3 – User Input & Strings
 - ✅ Day 4 – Control Statements
 - ✅ Day 5 – Loops
+- ✅ Day 6 – Lists
 
 ---
 
 ## Current Progress
 
-Completed: **5 / 15 Lessons**
+Completed Lessons: **6 / 15**
 
-Sprint Progress: **33% Complete**
+Sprint Progress: **40% Complete**
 
 ---
 
 ## Skills Learned
 
+### Python Fundamentals
 - Variables
 - Data Types
 - Type Conversion
-- Operators
-- User Input
-- Strings
-- Conditional Statements
-- Loops
-- `range()`
+- Input & Output
+
+### Operators
+- Arithmetic Operators
+- Comparison Operators
+- Logical Operators
+- Assignment Operators
+
+### Strings
+- Indexing
+- Slicing
+- String Methods
+
+### Control Flow
+- if
+- elif
+- else
+
+### Loops
+- for Loop
+- while Loop
+- range()
 - Nested Loops
-- Basic Time Complexity
+
+### Lists
+- Creating Lists
+- Indexing
+- Negative Indexing
+- Updating Lists
+- append()
+- insert()
+- remove()
+- pop()
+- len()
+- Membership Operator (`in`)
+- Looping Through Lists
+- Nested Lists
+
+### Complexity
+- Time Complexity
+- Space Complexity
+- Big-O Basics
 
 ---
 
 ## Next Lesson
 
-**Day 6 – Lists**
+**Day 7 – Tuples**
 
 Topics:
 
-- Creating Lists
-- Indexing
-- Slicing
-- Updating Lists
-- List Methods
-- Iterating through Lists
-- Nested Lists
-- Membership Operator (`in`)
-- Real-world Collection Problems
+- Creating Tuples
+- Tuple Packing
+- Tuple Unpacking
+- Immutable Objects
+- List vs Tuple
+- Returning Multiple Values
+- Real-world Use Cases
 
 ---
 
 ## Next Goal
 
-Learn how to store and manipulate collections of data using Lists, then apply them to real-world travel booking scenarios in Wanderlust Wings.
+Understand immutable collections and learn when to use Tuples instead of Lists while building scalable applications in Wanderlust Wings.
