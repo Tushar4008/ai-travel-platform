@@ -421,17 +421,149 @@ Highlights:
 - Improvement in writing cleaner and more maintainable code.
 - Introduction to writing production-style collection handling.
 
+# Day 7 | 24 Jul 2026
+
+## Sprint
+
+Sprint 1 – Python Core
+
+---
+
+## Lesson
+
+Day 7 – Tuples
+
+---
+
+## Completed
+
+- Learned what Tuples are
+- Created Tuples
+- Accessed Tuple elements using indexing
+- Used Positive & Negative Indexing
+- Learned Tuple Packing
+- Learned Tuple Unpacking
+- Used `count()` method
+- Used `index()` method
+- Iterated through Tuples
+- Completed Flight Information Assignment
+- Completed Daily Coding Challenge
+- Completed Revision Coding Challenge
+- Completed Quiz
+- Senior Code Review Completed
+- Tech Lead Review Completed
+
+---
+
+## Learnings
+
+- Tuples are ordered and immutable.
+- Tuples can store multiple values of different data types.
+- Tuple elements cannot be modified after creation.
+- Tuple Packing groups multiple values into a Tuple.
+- Tuple Unpacking assigns Tuple elements to separate variables.
+- Tuples support indexing and slicing like Lists.
+- Only `count()` and `index()` methods are available.
+- Tuples are slightly faster and more memory-efficient than Lists.
+- Tuples are ideal for storing fixed or read-only data.
+
+---
+
+## Mistakes Corrected
+
+- Corrected the typo from **"Fight Number"** to **"Flight Number"**.
+- Improved user input handling using `.strip().title()` for cleaner comparisons.
+- Reinforced the practice of choosing Tuples only for immutable data.
+
+---
+
+## Daily Coding Challenge
+
+### Problem
+
+Create a Tuple containing latitude and longitude, unpack it into separate variables, and print both values.
+
+### Difficulty
+
+⭐ Easy
+
+### Pattern
+
+Tuple Unpacking
+
+### Time Complexity
+
+O(1)
+
+### Space Complexity
+
+O(1)
+
+### Optimization
+
+Already optimal because unpacking a fixed-size Tuple takes constant time.
+
+---
+
+## Revision Coding Challenge
+
+Revised concepts from:
+
+- Variables
+- User Input
+- if-else
+- Membership Operator (`in`)
+- Tuples
+
+---
+
+## Tech Lead Feedback
+
+Today's lesson focused on selecting the correct data structure based on business requirements rather than syntax.
+
+Highlights:
+
+- Strong understanding of Tuple immutability.
+- Correct use of Tuple packing and unpacking.
+- Improved descriptive variable naming.
+- Good understanding of when to choose a Tuple instead of a List.
+- Started thinking from a software engineering perspective by selecting immutable data for fixed business information.
+
+---
+
+## Interview Preparation
+
+### Basic Interview Questions Covered
+
+- What is a Tuple?
+- List vs Tuple
+- Tuple Packing
+- Tuple Unpacking
+- Single Element Tuple
+- Tuple Methods
+- Mutable vs Immutable Objects
+
+### Senior Engineer Questions Covered
+
+- When should you choose a Tuple over a List?
+- Why are Tuples faster?
+- Can Tuples contain mutable objects?
+- Can Tuples be Dictionary keys?
+- Choosing the correct data structure based on business requirements.
+- Tuple use cases in production systems.
+
 ---
 
 ## Next Lesson
 
-Day 7 – Tuples
+Day 8 – Dictionaries
 
 Topics:
 
-- Creating Tuples
-- Packing & Unpacking
-- Immutable Objects
-- List vs Tuple
-- Returning Multiple Values
-- Practical Use Cases
+- Dictionaries
+- Key-Value Pairs
+- CRUD Operations
+- Dictionary Methods
+- Nested Dictionaries
+- JSON Mapping
+- Real-world API Examples

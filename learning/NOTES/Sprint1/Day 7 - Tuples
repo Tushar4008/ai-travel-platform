@@ -1,0 +1,418 @@
+# 📘 Sprint 1 – Python Core
+
+# 📝 Day 7 – Tuples
+
+---
+
+# 🎯 Business Requirement
+
+Imagine we are building **Wanderlust Wings**.
+
+Every flight has information like:
+
+* Flight Number
+* Source Airport
+* Destination Airport
+
+These values should not change accidentally once the flight is created.
+
+Example:
+
+* AI302
+* Delhi
+* Bangkok
+
+Python provides **Tuples** to store such fixed information because they are **immutable** (cannot be changed after creation).
+
+---
+
+# 📚 Theory
+
+## What is a Tuple?
+
+A Tuple is an **ordered**, **immutable** collection used to store multiple values.
+
+Example:
+
+```python
+flight = ("AI302", "Delhi", "Bangkok")
+```
+
+Unlike Lists, Tuples cannot be modified after creation.
+
+---
+
+## Characteristics of Tuples
+
+* Ordered
+* Immutable
+* Allows duplicate values
+* Supports indexing
+* Can store multiple data types
+* Faster than Lists for read-only data
+
+---
+
+## Creating Tuples
+
+```python
+cities = ("Delhi", "Goa", "Mumbai")
+```
+
+Mixed Data Types
+
+```python
+details = ("Thailand", 50000, True)
+```
+
+---
+
+## Accessing Elements
+
+Positive Indexing
+
+```python
+print(cities[0])
+```
+
+Output
+
+```
+Delhi
+```
+
+Negative Indexing
+
+```python
+print(cities[-1])
+```
+
+Output
+
+```
+Mumbai
+```
+
+---
+
+## Tuple Packing
+
+Python automatically packs multiple values into a Tuple.
+
+```python
+flight = "AI302", "Delhi", "Bangkok"
+```
+
+---
+
+## Tuple Unpacking
+
+```python
+flight_number, source, destination = flight
+```
+
+Each value is assigned to a separate variable.
+
+---
+
+## Single Element Tuple
+
+Incorrect
+
+```python
+city = ("Delhi")
+```
+
+Correct
+
+```python
+city = ("Delhi",)
+```
+
+The comma is mandatory.
+
+---
+
+## Tuple Methods
+
+### count()
+
+Returns the number of occurrences.
+
+```python
+numbers = (1,2,2,3)
+
+numbers.count(2)
+```
+
+Output
+
+```
+2
+```
+
+---
+
+### index()
+
+Returns the index of an element.
+
+```python
+cities.index("Goa")
+```
+
+Output
+
+```
+1
+```
+
+---
+
+# ☕ Java Comparison
+
+Java provides immutable data using the `final` keyword.
+
+Example:
+
+```java
+final String flightNumber = "AI302";
+```
+
+Similarly, Tuples are useful when data should remain unchanged after creation.
+
+Think of:
+
+* List → ArrayList
+* Tuple → Immutable data structure
+
+---
+
+# 💻 Important Concepts
+
+## List vs Tuple
+
+| List         | Tuple                  |
+| ------------ | ---------------------- |
+| Mutable      | Immutable              |
+| Uses []      | Uses ()                |
+| Many Methods | Only count() & index() |
+| Slower       | Slightly Faster        |
+| More Memory  | Less Memory            |
+
+---
+
+## When to Use Tuples
+
+Use Tuples when data should not change.
+
+Examples:
+
+* Flight Details
+* Airport Codes
+* GPS Coordinates
+* RGB Colors
+* Date of Birth
+* Database Records
+* Returning Multiple Values from Functions
+
+---
+
+# 💡 Best Practices
+
+* Use Tuples for fixed data.
+* Use meaningful variable names.
+* Prefer Tuple unpacking instead of repeated indexing.
+* Use Lists only when data needs to change.
+* Keep related values together in a Tuple.
+
+---
+
+# ❌ Mistakes I Made Today
+
+### 1. Typographical Error
+
+I printed:
+
+```
+Fight Number
+```
+
+Instead of:
+
+```
+Flight Number
+```
+
+Always verify output messages before finishing your program.
+
+---
+
+### 2. User Input Improvement
+
+Instead of:
+
+```python
+favourite_city = input("Enter your favourite city: ")
+```
+
+Use:
+
+```python
+favourite_city = input("Enter your favourite city: ").strip().title()
+```
+
+This removes unwanted spaces and handles capitalization.
+
+---
+
+# 🎤 Interview Questions
+
+1. What is a Tuple?
+2. Difference between List and Tuple?
+3. Why are Tuples immutable?
+4. Why are Tuples faster than Lists?
+5. What is Tuple Packing?
+6. What is Tuple Unpacking?
+7. How do you create a single-element Tuple?
+8. Which methods are available for Tuples?
+9. When should you use a Tuple instead of a List?
+
+---
+
+# ⚡ One Minute Revision
+
+* Tuple = Ordered + Immutable
+* Uses parentheses `()`
+* Supports indexing
+* Allows duplicate values
+* Can store mixed data types
+* Cannot be modified after creation
+* Only `count()` and `index()` methods
+* Supports packing and unpacking
+* Best for fixed/read-only data
+
+---
+
+# ✈️ Wanderlust Wings Connection
+
+Tuples will be useful for storing information that should remain constant throughout the application.
+
+Examples:
+
+* Flight Number
+* Source & Destination
+* Airport Coordinates
+* Currency Codes
+* Country Codes
+* Fixed Configuration Values
+
+Choosing Tuples for immutable data makes the application safer and prevents accidental modifications.
+
+---
+
+# 💻 Daily Coding Challenge
+
+### Problem
+
+Create the following Tuple:
+
+```python
+coordinates = (25.4358, 81.8463)
+```
+
+Unpack the Tuple and print:
+
+```
+Latitude:
+Longitude:
+```
+
+**Time Complexity:** O(1)
+
+**Space Complexity:** O(1)
+
+---
+
+# 🔁 Revision Coding Challenge
+
+Create the Tuple:
+
+```python
+cities = (
+    "Delhi",
+    "Goa",
+    "Mumbai"
+)
+```
+
+Ask the user to enter their favourite city.
+
+If the city exists in the Tuple, print:
+
+```
+Available
+```
+
+Otherwise print:
+
+```
+Not Available
+```
+
+Concepts Revised:
+
+* Variables
+* User Input
+* if-else
+* Membership Operator (`in`)
+* Tuples
+
+---
+
+# 📝 Day Summary
+
+Today I learned:
+
+* What Tuples are
+* Difference between Lists and Tuples
+* Creating Tuples
+* Positive & Negative Indexing
+* Tuple Packing
+* Tuple Unpacking
+* Tuple Methods
+* Looping through Tuples
+* Immutable Objects
+* Real-world use cases of Tuples
+
+---
+
+# 👨‍💻 Tech Lead Notes
+
+Excellent work today.
+
+You quickly understood the purpose of Tuples and correctly identified that they are meant for data that should not change. Your implementation of tuple unpacking was clean, and your variable names (`flight_number`, `source_city`, `destination_city`, and `ticket_price`) reflected good coding practices.
+
+The only improvements were minor:
+
+* Correcting the typo from **"Fight Number"** to **"Flight Number"**.
+* Normalizing user input with `.strip().title()` for a better user experience.
+
+One important milestone from today's lesson is that you're beginning to choose data structures based on business requirements rather than just syntax. This is the mindset of a software engineer and will become increasingly valuable as we start working with Dictionaries, JSON, APIs, and eventually the Wanderlust Wings backend.
+
+---
+
+# ✅ End of Day 7
+
+Completed:
+
+* ✔ Theory
+* ✔ Hands-on Coding
+* ✔ Assignment
+* ✔ Daily Coding Challenge
+* ✔ Revision Coding Challenge
+* ✔ Quiz
+* ✔ Senior Code Review
+* ✔ Tech Lead Review
+
+**Sprint Progress:** **7 / 14 Days Completed** 🚀

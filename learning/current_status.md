@@ -15,7 +15,7 @@
 
 ## Current Lesson
 
-**Day 7 – Tuples**
+**Day 8 – Dictionaries**
 
 ---
 
@@ -41,14 +41,15 @@
 - ✅ Day 4 – Control Statements
 - ✅ Day 5 – Loops
 - ✅ Day 6 – Lists
+- ✅ Day 7 – Tuples
 
 ---
 
 ## Current Progress
 
-Completed Lessons: **6 / 15**
+Completed Lessons: **7 / 14**
 
-Sprint Progress: **40% Complete**
+Sprint Progress: **50% Complete**
 
 ---
 
@@ -96,6 +97,17 @@ Sprint Progress: **40% Complete**
 - Looping Through Lists
 - Nested Lists
 
+### Tuples
+- Creating Tuples
+- Tuple Packing
+- Tuple Unpacking
+- Positive & Negative Indexing
+- Looping Through Tuples
+- Tuple Methods (`count()`, `index()`)
+- Immutable Objects
+- List vs Tuple
+- Real-world Use Cases
+
 ### Complexity
 - Time Complexity
 - Space Complexity
@@ -105,20 +117,23 @@ Sprint Progress: **40% Complete**
 
 ## Next Lesson
 
-**Day 7 – Tuples**
+**Day 8 – Dictionaries**
 
 Topics:
 
-- Creating Tuples
-- Tuple Packing
-- Tuple Unpacking
-- Immutable Objects
-- List vs Tuple
-- Returning Multiple Values
-- Real-world Use Cases
+- Creating Dictionaries
+- Key-Value Pairs
+- Accessing Values
+- Adding & Updating Items
+- Removing Items
+- Dictionary Methods
+- Looping Through Dictionaries
+- Nested Dictionaries
+- Dictionary vs List vs Tuple
+- Real-world API & JSON Examples
 
 ---
 
 ## Next Goal
 
-Understand immutable collections and learn when to use Tuples instead of Lists while building scalable applications in Wanderlust Wings.
+Learn Python Dictionaries and understand how they map directly to JSON objects used in REST APIs and backend development. This will form the foundation for handling API requests and responses in Wanderlust Wings.
