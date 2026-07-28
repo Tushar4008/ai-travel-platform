@@ -554,16 +554,129 @@ Highlights:
 
 ---
 
-## Next Lesson
+# Day 8 | 27 Jul 2026
+
+## Sprint
+
+Sprint 1 – Python Core
+
+---
+
+## Lesson
 
 Day 8 – Dictionaries
 
+---
+
+## Completed
+
+- Learned Dictionary fundamentals
+- Created Dictionaries
+- Accessed values using keys
+- Added and updated key-value pairs
+- Removed entries using `pop()` and `del`
+- Used `keys()`, `values()` and `items()`
+- Used `get()` for safe access
+- Iterated through Dictionaries
+- Learned Nested Dictionaries
+- Compared Dictionary vs List vs Tuple
+- Completed Hands-on Coding
+- Completed Assignment
+- Completed Daily Coding Challenge
+- Completed Revision Coding Challenge
+- Completed Quiz
+- Senior Code Review Completed
+- Tech Lead Review Completed
+
+---
+
+## Learnings
+
+- Dictionaries store data as key-value pairs.
+- Keys must be unique.
+- Values can be duplicated.
+- Dictionaries are mutable.
+- `get()` is safer than direct indexing.
+- Python Dictionaries use hash tables.
+- Dictionary operations are O(1) on average.
+- Dictionaries map directly to JSON objects returned by APIs.
+
+---
+
+## Mistakes Corrected
+
+- Improved output formatting instead of directly printing `dict_items`.
+- Reinforced using `get()` for optional user input.
+- Learned to choose Dictionaries for named business data instead of Lists.
+
+---
+
+## Daily Coding Challenge
+
+Created a student information Dictionary and safely retrieved values using `get()`.
+
+Difficulty: ⭐ Easy
+
+Concepts:
+- Dictionary Creation
+- User Input
+- Safe Lookup
+
+---
+
+## Revision Coding Challenge
+
+Revised:
+
+- Variables
+- if-else
+- User Input
+- Dictionary Lookup
+- `get()` Method
+
+---
+
+## Tech Lead Feedback
+
+Today's lesson marked an important transition from sequence-based data structures (Lists and Tuples) to key-based data modeling.
+
+Highlights:
+
+- Strong understanding of CRUD operations on Dictionaries.
+- Correct use of `get()` for safer code.
+- Good understanding of choosing Dictionaries for business entities.
+- Ready to work with JSON responses from REST APIs.
+
+---
+
+## Interview Preparation
+
+### Basic Questions Covered
+
+- Dictionary Fundamentals
+- CRUD Operations
+- `get()` vs `[]`
+- Dictionary Methods
+- Time Complexity
+
+### Senior Engineer Questions Covered
+
+- Dictionaries vs Lists
+- Hash Tables
+- Dictionary Keys
+- JSON Mapping
+- Production Use Cases
+
+---
+
+## Next Lesson
+
+Day 9 – Sets
+
 Topics:
 
-- Dictionaries
-- Key-Value Pairs
-- CRUD Operations
-- Dictionary Methods
-- Nested Dictionaries
-- JSON Mapping
-- Real-world API Examples
+- Unique Values
+- Set Operations
+- Membership Testing
+- Removing Duplicates
+- Real-world Applications

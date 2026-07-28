@@ -15,7 +15,7 @@
 
 ## Current Lesson
 
-**Day 8 – Dictionaries**
+**Day 9 – Sets**
 
 ---
 
@@ -42,98 +42,51 @@
 - ✅ Day 5 – Loops
 - ✅ Day 6 – Lists
 - ✅ Day 7 – Tuples
+- ✅ Day 8 – Dictionaries
 
 ---
 
 ## Current Progress
 
-Completed Lessons: **7 / 14**
+Completed Lessons: **8 / 14**
 
-Sprint Progress: **50% Complete**
+Sprint Progress: **57% Complete**
 
 ---
 
 ## Skills Learned
 
-### Python Fundamentals
-- Variables
-- Data Types
-- Type Conversion
-- Input & Output
-
-### Operators
-- Arithmetic Operators
-- Comparison Operators
-- Logical Operators
-- Assignment Operators
-
-### Strings
-- Indexing
-- Slicing
-- String Methods
-
-### Control Flow
-- if
-- elif
-- else
-
-### Loops
-- for Loop
-- while Loop
-- range()
-- Nested Loops
-
-### Lists
-- Creating Lists
-- Indexing
-- Negative Indexing
-- Updating Lists
-- append()
-- insert()
-- remove()
-- pop()
-- len()
-- Membership Operator (`in`)
-- Looping Through Lists
-- Nested Lists
-
-### Tuples
-- Creating Tuples
-- Tuple Packing
-- Tuple Unpacking
-- Positive & Negative Indexing
-- Looping Through Tuples
-- Tuple Methods (`count()`, `index()`)
-- Immutable Objects
-- List vs Tuple
-- Real-world Use Cases
-
-### Complexity
-- Time Complexity
-- Space Complexity
-- Big-O Basics
+- Variables & Data Types
+- Operators
+- Strings
+- User Input
+- Control Statements
+- Loops
+- Lists
+- Tuples
+- Dictionaries
+- Time & Space Complexity (Basics)
+- Choosing the right data structure based on business requirements
 
 ---
 
 ## Next Lesson
 
-**Day 8 – Dictionaries**
+**Day 9 – Sets**
 
 Topics:
 
-- Creating Dictionaries
-- Key-Value Pairs
-- Accessing Values
-- Adding & Updating Items
-- Removing Items
-- Dictionary Methods
-- Looping Through Dictionaries
-- Nested Dictionaries
-- Dictionary vs List vs Tuple
-- Real-world API & JSON Examples
+- Creating Sets
+- Unique Values
+- Set Operations
+- Union
+- Intersection
+- Difference
+- Membership Testing
+- Real-world Applications
 
 ---
 
 ## Next Goal
 
-Learn Python Dictionaries and understand how they map directly to JSON objects used in REST APIs and backend development. This will form the foundation for handling API requests and responses in Wanderlust Wings.
+Learn Sets and understand how they help remove duplicates, perform fast membership checks, and compare collections efficiently.
