@@ -797,18 +797,153 @@ Highlights:
 - Choosing the Correct Data Structure
 - Duplicate Removal Strategies
 
+# Day 10 | 29 Jul 2026
+
+## Sprint
+
+Sprint 1 – Python Core
+
+---
+
+## Lesson
+
+Day 10 – Functions (Part 1)
+
+---
+
+## Completed
+
+- Learned why Functions are used
+- Defined Functions using `def`
+- Called Functions
+- Learned Parameters and Arguments
+- Used Return Statements
+- Practiced Local Variables
+- Practiced Global Variables
+- Understood Variable Scope
+- Completed Hands-on Coding
+- Completed Assignment
+- Completed Daily Coding Challenge
+- Completed Revision Coding Challenge
+- Completed Quiz
+- Senior Code Review Completed
+- Tech Lead Review Completed
+
+---
+
+## Learnings
+
+- Functions are reusable blocks of code.
+- Functions reduce duplicate code by following the DRY principle.
+- Parameters are variables defined in the function declaration.
+- Arguments are the actual values passed during a function call.
+- `return` sends a value back to the caller.
+- `print()` only displays output.
+- Local variables exist only within a function.
+- Global variables can be accessed throughout the program.
+- Small, focused functions are easier to maintain and test.
+
+---
+
+## Mistakes Corrected
+
+- Corrected the difference between **Parameters** and **Arguments**.
+- Learned that `print(local_variable)` prints the function object, while `print(local_variable())` executes the function and prints its return value.
+- Improved understanding of using `return` instead of `print()` when values need to be reused.
+
+---
+
+## Daily Coding Challenge
+
+### Problem
+
+Create a function `find_larger(a, b)` that returns the larger number.
+
+### Difficulty
+
+⭐ Easy
+
+### Concepts
+
+- Functions
+- Parameters
+- Return
+- Conditional Statements
+
+### Time Complexity
+
+O(1)
+
+### Space Complexity
+
+O(1)
+
+---
+
+## Revision Coding Challenge
+
+Revised concepts:
+
+- Functions
+- Sets
+- Membership Operator (`in`)
+- Return Values
+
+---
+
+## Tech Lead Feedback
+
+Today's lesson introduced one of the most important software engineering concepts: **modular programming**.
+
+Highlights:
+
+- Good understanding of function creation and invocation.
+- Appropriate use of `return` for reusable logic.
+- Strong function naming overall.
+- Good separation of responsibilities across functions.
+- Developing clean coding habits by writing small, focused functions.
+
+Areas to improve:
+
+- Continue reinforcing the difference between Parameters and Arguments.
+- Remember to execute functions using parentheses `()` when you need their return values.
+
+---
+
+## Interview Preparation
+
+### Basic Questions Covered
+
+- What is a Function?
+- Function Syntax
+- Parameters vs Arguments
+- Return Statement
+- Local vs Global Variables
+- Variable Scope
+
+### Senior Engineer Questions Covered
+
+- DRY Principle
+- Single Responsibility Principle
+- Code Reusability
+- Production Function Design
+- `return` vs `print()`
+
 ---
 
 ## Next Lesson
 
-Day 10 – Functions (Part 1)
+Day 11 – Functions (Part 2)
 
 Topics:
 
-- Function Definition
-- Parameters & Arguments
-- Return Values
-- Variable Scope
-- Code Reusability
-- Best Practices
+- Default Parameters
+- Keyword Arguments
+- `*args`
+- `**kwargs`
+- Lambda Functions
+- Recursion Basics
+- Type Hints
+- Docstrings
+- Function Best Practices
 

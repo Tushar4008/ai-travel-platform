@@ -15,7 +15,7 @@
 
 ## Current Lesson
 
-**Day 10 – Functions (Part 1)**
+**Day 11 – Functions (Part 2)**
 
 ---
 
@@ -44,14 +44,15 @@
 - ✅ Day 7 – Tuples
 - ✅ Day 8 – Dictionaries
 - ✅ Day 9 – Sets
+- ✅ Day 10 – Functions (Part 1)
 
 ---
 
 ## Current Progress
 
-Completed Lessons: **9 / 14**
+Completed Lessons: **10 / 14**
 
-Sprint Progress: **64% Complete**
+Sprint Progress: **71% Complete**
 
 ---
 
@@ -86,34 +87,41 @@ Sprint Progress: **64% Complete**
 
 ### Collections
 #### Lists
-- Creating Lists
 - CRUD Operations
 - Nested Lists
-- Looping
-- Membership Operator
+- Membership Operations
 
 #### Tuples
 - Packing & Unpacking
 - Tuple Methods
-- Immutable Data
-- Real-world Use Cases
+- Immutable Collections
 
 #### Dictionaries
-- Key-Value Pairs
 - CRUD Operations
 - Dictionary Methods
 - Nested Dictionaries
 - JSON Mapping
 
 #### Sets
-- Creating Sets
 - Unique Values
 - Duplicate Removal
 - Membership Testing
-- Union (`|`)
-- Intersection (`&`)
-- Difference (`-`)
-- Symmetric Difference (`^`)
+- Union
+- Intersection
+- Difference
+- Symmetric Difference
+
+### Functions
+- Function Definition
+- Function Calling
+- Parameters
+- Arguments
+- Return Statement
+- Local Variables
+- Global Variables
+- Variable Scope
+- Code Reusability
+- DRY Principle
 
 ### Complexity
 - Big-O Basics
@@ -125,22 +133,23 @@ Sprint Progress: **64% Complete**
 
 ## Next Lesson
 
-**Day 10 – Functions (Part 1)**
+**Day 11 – Functions (Part 2)**
 
 Topics:
 
-- Why Functions?
-- Defining Functions
-- Calling Functions
-- Parameters
-- Arguments
-- Return Values
-- Local vs Global Variables
-- Code Reusability
+- Default Parameters
+- Keyword Arguments
+- Positional Arguments
+- Variable-Length Arguments (`*args`)
+- Keyword Variable Arguments (`**kwargs`)
+- Recursion (Introduction)
+- Lambda Functions (Introduction)
+- Docstrings
+- Type Hints
 - Function Best Practices
 
 ---
 
 ## Next Goal
 
-Learn how to organize code using Functions. This is one of the biggest milestones in Python because it introduces modular programming and prepares us for object-oriented programming, backend development, and AI projects.
+Master advanced function concepts that are widely used in production Python applications and prepare for Object-Oriented Programming (OOP), Flask/FastAPI development, and AI backend services.
