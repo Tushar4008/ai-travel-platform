@@ -1,0 +1,471 @@
+📘 Sprint 1 – Python Core
+📝 Day 9 Notes – Sets
+
+Topic: Python Sets
+
+Sprint: Sprint 1 – Python Core
+
+Day: 9
+
+1️⃣ Business Requirement
+
+While building Wanderlust Wings, we often receive duplicate destination names from different travel partners.
+
+Example:
+
+Thailand
+Japan
+Thailand
+Dubai
+Japan
+Singapore
+
+Displaying duplicate destinations creates a poor user experience.
+
+Using a Set, Python automatically removes duplicates:
+
+destinations = {
+    "Thailand",
+    "Japan",
+    "Thailand",
+    "Dubai"
+}
+
+Output:
+
+{'Thailand', 'Japan', 'Dubai'}
+
+This makes Sets perfect for storing unique values.
+
+2️⃣ Theory
+What is a Set?
+
+A Set is an unordered, mutable collection that stores only unique values.
+
+Characteristics:
+
+Stores unique elements
+Removes duplicates automatically
+Unordered
+Mutable
+Fast membership checking
+Uses Hash Tables internally
+
+Example:
+
+countries = {
+    "Thailand",
+    "Japan",
+    "Dubai"
+}
+Creating an Empty Set
+
+Correct:
+
+countries = set()
+
+Incorrect:
+
+countries = {}
+
+{} creates an empty Dictionary, not a Set.
+
+Adding Elements
+countries.add("Singapore")
+Removing Elements
+
+Using remove():
+
+countries.remove("Japan")
+
+Raises an error if the element doesn't exist.
+
+Using discard():
+
+countries.discard("Japan")
+
+No error if the element doesn't exist.
+
+Membership Checking
+if "Thailand" in countries:
+    print("Available")
+
+Very fast because Sets use Hash Tables.
+
+Average Time Complexity:
+
+O(1)
+
+Looping Through a Set
+for country in countries:
+    print(country)
+
+The order is not guaranteed.
+
+Set Operations
+Union
+
+Returns all unique elements.
+
+asia | europe
+Intersection
+
+Returns common elements.
+
+visited & wishlist
+Difference
+
+Returns elements present in the first Set but not the second.
+
+visited - wishlist
+Symmetric Difference
+
+Returns elements present in either Set but not both.
+
+visited ^ wishlist
+☕ 3️⃣ Java Comparison
+
+Python Set is equivalent to Java's:
+
+HashSet<String> countries = new HashSet<>();
+
+Java:
+
+countries.add("Thailand");
+countries.add("Japan");
+countries.add("Thailand");
+
+Only one "Thailand" is stored.
+
+Python:
+
+countries = {
+    "Thailand",
+    "Japan",
+    "Thailand"
+}
+
+Same behavior.
+
+⭐ 4️⃣ Important Concepts
+Hash Table
+
+Python Sets use Hash Tables internally.
+
+Benefits:
+
+Fast searching
+Fast insertion
+Fast deletion
+
+Average Complexity:
+
+Operation	Complexity
+Add	O(1)
+Remove	O(1)
+Membership (in)	O(1)
+Iterate	O(n)
+Set Operations
+Operator	Meaning
+`	`
+&	Intersection
+-	Difference
+^	Symmetric Difference
+List vs Set
+List	Set
+Ordered	Unordered
+Allows duplicates	Removes duplicates
+Indexing supported	No indexing
+Slower membership check	Faster membership check
+✅ 5️⃣ Best Practices
+
+✔ Use a Set when duplicate values should not exist.
+
+✔ Use Sets for fast membership testing.
+
+✔ Use discard() when you're unsure if an element exists.
+
+✔ Use meaningful variable names.
+
+Example:
+
+visited_destinations
+
+instead of
+
+s
+
+✔ Store the result of Set operations in variables when they will be reused.
+
+Example:
+
+common_destinations = visited & wishlist
+
+print(common_destinations)
+❌ 6️⃣ Mistakes I Made Today
+Mistake 1
+
+I answered that the operator for finding common elements was:
+
+|
+
+Correct operator:
+
+&
+
+Remember:
+
+Operator	Meaning
+`	`
+&	Intersection
+-	Difference
+^	Symmetric Difference
+Mistake 2
+
+For the Daily Coding Challenge, I manually created another Set:
+
+unique_cities = {
+    "Delhi",
+    "Mumbai",
+    "Delhi"
+}
+
+A better solution is:
+
+cities = [
+    "Delhi",
+    "Mumbai",
+    "Delhi",
+    "Goa",
+    "Mumbai",
+    "Chennai"
+]
+
+unique_cities = set(cities)
+
+This works with dynamic data from APIs, files, or databases.
+
+🧩 7️⃣ Common Interview Coding Patterns
+Pattern 1 – Remove Duplicates
+numbers = [1, 2, 2, 3, 4, 4]
+
+unique_numbers = set(numbers)
+
+Used in:
+
+Data cleaning
+CSV processing
+API responses
+Pattern 2 – Fast Membership Lookup
+
+Instead of:
+
+if destination in destination_list:
+
+Use:
+
+if destination in destination_set:
+
+Much faster for large collections.
+
+Pattern 3 – Find Common Elements
+common = users_from_app & users_from_website
+
+Real-world examples:
+
+Shared customers
+Common travel destinations
+Mutual friends
+Pattern 4 – Compare Collections
+new_destinations = today - yesterday
+
+Used in:
+
+Change detection
+Inventory updates
+Comparing datasets
+🎤 8️⃣ Basic Interview Questions & Answers
+Q1. What is a Set?
+
+A mutable collection that stores only unique values.
+
+Q2. Does a Set allow duplicates?
+
+No.
+
+Duplicate elements are automatically removed.
+
+Q3. How do you create an empty Set?
+set()
+Q4. Difference between remove() and discard()?
+
+remove() raises an error if the element doesn't exist.
+
+discard() does not raise an error.
+
+Q5. Can Sets be indexed?
+
+No.
+
+Sets are unordered.
+
+Q6. What is the average time complexity of membership checking?
+
+O(1)
+
+Q7. Which operator performs Union?
+|
+Q8. Which operator performs Intersection?
+&
+Q9. Which operator performs Difference?
+-
+Q10. Which operator performs Symmetric Difference?
+^
+💼 9️⃣ Senior Engineer Interview Questions & Answers
+Q1. Why are Sets faster than Lists?
+
+Sets use Hash Tables, allowing average O(1) membership checks.
+
+Lists require linear searching, resulting in O(n) complexity.
+
+Q2. When should you use a Set instead of a List?
+
+When:
+
+Removing duplicates
+Fast searching
+Comparing collections
+Unique values are required
+Q3. Can a Set contain Lists?
+
+No.
+
+Lists are mutable and therefore unhashable.
+
+Q4. Can a Set contain Tuples?
+
+Yes.
+
+Tuples are immutable and hashable.
+
+Example:
+
+locations = {
+    ("Delhi", 28.61),
+    ("Mumbai", 19.07)
+}
+Q5. How are Sets implemented internally?
+
+Using Hash Tables.
+
+Q6. What are common production use cases for Sets?
+User permissions
+Unique email addresses
+Tags
+Removing duplicate records
+Fast lookups
+Recommendation systems
+Q7. What is the difference between a Dictionary and a Set?
+
+Dictionary:
+
+Stores key-value pairs.
+
+Set:
+
+Stores only unique values.
+
+⭐ Tech Lead Discussion
+
+Question:
+
+You receive one million destination names from different travel partners. Many are duplicates. Which data structure would you choose and why?
+
+Answer:
+
+I would use a Set because it automatically removes duplicates and provides fast O(1) membership checks. This improves both performance and code simplicity compared to using a List with manual duplicate checks.
+
+⚡ 1️⃣0️⃣ One Minute Revision
+Set stores unique values.
+Duplicate values are removed automatically.
+Sets are unordered.
+Empty Set → set()
+remove() raises an error if missing.
+discard() does not.
+Membership checking is O(1).
+| → Union
+& → Intersection
+- → Difference
+^ → Symmetric Difference
+✈️ 1️⃣1️⃣ Wanderlust Wings Connection
+
+In our AI Travel Platform, Sets will be useful for:
+
+Unique destinations
+Supported airlines
+Available currencies
+Travel tags
+Visited countries
+User interests
+Removing duplicate search results
+Fast destination lookup
+Comparing destinations from different travel providers
+
+Sets help ensure clean data and improve application performance.
+
+💻 1️⃣2️⃣ Daily Coding Challenge
+
+Problem:
+
+Remove duplicate city names from a list using a Set.
+
+Difficulty:
+
+⭐ Easy
+
+Concepts Covered:
+
+Set Creation
+Duplicate Removal
+List to Set Conversion
+🔁 1️⃣3️⃣ Revision Coding Challenge
+
+Revised Concepts:
+
+Variables
+User Input
+if-else
+Membership Operator (in)
+Sets
+🏁 1️⃣4️⃣ Day Summary
+
+Today I learned:
+
+What Sets are and why they exist.
+How Sets automatically remove duplicate values.
+CRUD operations on Sets.
+The difference between remove() and discard().
+Membership testing using in.
+Set operations:
+Union
+Intersection
+Difference
+Symmetric Difference
+Why Sets are much faster than Lists for membership checking.
+Real-world use cases of Sets in backend development and AI applications.
+👨‍💼 1️⃣5️⃣ Tech Lead Notes
+
+Excellent progress today. Your understanding is shifting from "how to use a feature" to "when to choose the right data structure."
+
+The biggest takeaway from this lesson is not the syntax of Set operations—it's recognizing business problems where Sets are the best fit, such as duplicate removal and fast lookups. That's a skill interviewers look for in experienced engineers.
+
+One area to reinforce is remembering the symbols for Set operations (|, &, -, ^). These are easy to mix up initially, but with a little practice they'll become second nature.
+
+Overall, you're now comfortable with the four core Python collection types:
+
+✅ List
+✅ Tuple
+✅ Dictionary
+✅ Set
+
+This gives you a strong foundation before we move into Functions in the next phase of Sprint 1. 🚀

@@ -1,0 +1,239 @@
+📘 Day 8 – Interview Questions & Answers
+🎤 Basic Interview Questions
+Q1. What is a Dictionary?
+
+Answer:
+
+A Dictionary is a mutable collection that stores data as key-value pairs. Each key is unique and is used to access its corresponding value.
+
+Example:
+
+student = {
+    "name": "Tushar",
+    "age": 30
+}
+Q2. Why do we use Dictionaries?
+
+Answer:
+
+Dictionaries make data easier to understand because values are accessed using meaningful keys instead of indexes.
+
+Example:
+
+package["price"]
+
+is much clearer than
+
+package[2]
+Q3. What is the difference between dict[key] and dict.get(key)?
+
+Answer:
+
+dict[key]	dict.get(key)
+Raises KeyError if key is missing	Returns None (or a default value)
+Use when you're sure the key exists	Use when the key may be missing
+
+Example:
+
+package.get("hotel")
+Q4. Can Dictionary keys be duplicated?
+
+Answer:
+
+No.
+
+If a duplicate key is added, the latest value overwrites the previous one.
+
+student = {
+    "name": "Tushar",
+    "name": "Rahul"
+}
+
+Result:
+
+{"name": "Rahul"}
+Q5. Can Dictionary values be duplicated?
+
+Answer:
+
+Yes.
+
+marks = {
+    "Math": 90,
+    "Science": 90
+}
+
+Only keys must be unique.
+
+Q6. How do you add a new key-value pair?
+
+Answer:
+
+package["hotel"] = "Mercure"
+Q7. How do you update a value?
+
+Answer:
+
+package["price"] = 60000
+Q8. How do you remove an item from a Dictionary?
+
+Answer:
+
+Using either:
+
+package.pop("days")
+
+or
+
+del package["days"]
+Q9. How do you loop through a Dictionary?
+
+Answer:
+
+Keys:
+
+for key in package:
+    print(key)
+
+Values:
+
+for value in package.values():
+    print(value)
+
+Key-value pairs:
+
+for key, value in package.items():
+    print(key, value)
+Q10. What is the average time complexity of Dictionary lookup?
+
+Answer:
+
+O(1) Average Case.
+
+Python uses a hash table, allowing direct access to values through their keys.
+
+💼 Senior Engineer Interview Questions
+Q1. When would you choose a Dictionary instead of a List?
+
+Answer:
+
+Use a Dictionary when data has meaningful names (keys).
+
+Example:
+
+Instead of:
+
+["Thailand", 55000, 5]
+
+Use:
+
+{
+    "country": "Thailand",
+    "price": 55000,
+    "days": 5
+}
+
+This improves readability and maintainability.
+
+Q2. Why are Dictionaries so fast?
+
+Answer:
+
+Python implements Dictionaries using hash tables.
+
+A hash function converts the key into a hash value, allowing Python to locate the value directly without searching through every element.
+
+Average complexity:
+
+Search → O(1)
+Insert → O(1)
+Delete → O(1)
+Q3. What types can be used as Dictionary keys?
+
+Answer:
+
+Keys must be immutable (hashable).
+
+Valid keys:
+
+String
+Integer
+Float
+Boolean
+Tuple (if it contains only immutable elements)
+
+Invalid keys:
+
+List
+Dictionary
+Set
+Q4. Can a Dictionary contain Lists or other Dictionaries?
+
+Answer:
+
+Yes.
+
+Example:
+
+package = {
+    "country": "Thailand",
+    "cities": ["Bangkok", "Phuket"],
+    "hotel": {
+        "name": "Mercure",
+        "rating": 4.5
+    }
+}
+
+Nested Dictionaries are extremely common in API responses.
+
+Q5. Why is get() preferred in production code?
+
+Answer:
+
+Using:
+
+package["hotel"]
+
+throws a KeyError if the key doesn't exist.
+
+Using:
+
+package.get("hotel")
+
+returns None instead, making applications more robust and preventing crashes.
+
+Q6. How do Dictionaries relate to REST APIs?
+
+Answer:
+
+REST APIs usually exchange data in JSON format.
+
+When JSON is received in Python, it becomes a Dictionary.
+
+Example:
+
+JSON:
+
+{
+    "destination": "Thailand",
+    "price": 55000
+}
+
+Python:
+
+response = {
+    "destination": "Thailand",
+    "price": 55000
+}
+
+This is why Dictionaries are essential for backend development.
+
+Q7. If order matters, should you still use a Dictionary?
+
+Answer:
+
+Yes.
+
+From Python 3.7 onward, Dictionaries preserve insertion order.
+
+However, the primary reason to use a Dictionary is fast lookup by key, not ordering.

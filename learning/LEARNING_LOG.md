@@ -669,14 +669,146 @@ Highlights:
 
 ---
 
-## Next Lesson
+# Day 9 | 29 Jul 2026
+
+## Sprint
+
+Sprint 1 – Python Core
+
+---
+
+## Lesson
 
 Day 9 – Sets
 
-Topics:
+---
 
-- Unique Values
+## Completed
+
+- Learned Set fundamentals
+- Created Sets
+- Understood automatic duplicate removal
+- Added elements using `add()`
+- Removed elements using `remove()` and `discard()`
+- Used membership operator (`in`)
+- Performed Union
+- Performed Intersection
+- Performed Difference
+- Performed Symmetric Difference
+- Completed Hands-on Coding
+- Completed Assignment
+- Completed Daily Coding Challenge
+- Completed Revision Coding Challenge
+- Completed Quiz
+- Senior Code Review Completed
+- Tech Lead Review Completed
+
+---
+
+## Learnings
+
+- Sets store only unique values.
+- Duplicate elements are removed automatically.
+- Sets are unordered collections.
+- Empty Sets are created using `set()`.
+- `remove()` raises an error if an element doesn't exist.
+- `discard()` safely removes an element without raising an error.
+- Sets use Hash Tables internally.
+- Membership checking in a Set is O(1) on average.
+- Set operations simplify comparing collections.
+
+---
+
+## Mistakes Corrected
+
+- Corrected the Set operator for Intersection (`&`) after initially confusing it with Union (`|`).
+- Improved the Daily Coding Challenge solution by converting an existing List into a Set using `set(cities)` instead of manually creating another Set.
+
+---
+
+## Daily Coding Challenge
+
+### Problem
+
+Remove duplicate city names from a List using a Set.
+
+### Difficulty
+
+⭐ Easy
+
+### Concepts
+
+- Set Creation
+- Duplicate Removal
+- List to Set Conversion
+
+### Time Complexity
+
+O(n)
+
+### Space Complexity
+
+O(n)
+
+---
+
+## Revision Coding Challenge
+
+Revised concepts:
+
+- Variables
+- User Input
+- `if-else`
+- Membership Operator (`in`)
+- Sets
+
+---
+
+## Tech Lead Feedback
+
+Today's lesson focused on selecting the correct data structure for business problems involving uniqueness and fast lookups.
+
+Highlights:
+
+- Strong understanding of duplicate removal.
+- Good use of membership testing.
+- Correct application of all four Set operations.
+- Improved coding style with meaningful variable names and clean user input handling.
+- Demonstrated good understanding of when Sets are preferable to Lists.
+
+---
+
+## Interview Preparation
+
+### Basic Questions Covered
+
+- Set Fundamentals
+- Creating Sets
+- `remove()` vs `discard()`
 - Set Operations
 - Membership Testing
-- Removing Duplicates
-- Real-world Applications
+- Time Complexity
+
+### Senior Engineer Questions Covered
+
+- Hash Tables
+- Set vs List
+- Production Use Cases
+- Choosing the Correct Data Structure
+- Duplicate Removal Strategies
+
+---
+
+## Next Lesson
+
+Day 10 – Functions (Part 1)
+
+Topics:
+
+- Function Definition
+- Parameters & Arguments
+- Return Values
+- Variable Scope
+- Code Reusability
+- Best Practices
+
