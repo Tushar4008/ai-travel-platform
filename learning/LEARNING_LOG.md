@@ -931,19 +931,147 @@ Areas to improve:
 
 ---
 
-## Next Lesson
+# Day 11 | 30 Jul 2026
+
+## Sprint
+
+Sprint 1 – Python Core
+
+---
+
+## Lesson
 
 Day 11 – Functions (Part 2)
 
-Topics:
+---
+
+## Completed
+
+- Learned Default Parameters
+- Learned Positional & Keyword Arguments
+- Used `*args`
+- Used `**kwargs`
+- Created Lambda Functions
+- Added Type Hints
+- Wrote Docstrings
+- Completed Hands-on Coding
+- Completed Assignment
+- Completed Daily Coding Challenge
+- Completed Revision Coding Challenge
+- Completed Quiz
+- Senior Code Review Completed
+- Tech Lead Review Completed
+
+---
+
+## Learnings
+
+- Default parameters simplify common function calls.
+- Keyword arguments improve readability.
+- `*args` stores positional arguments in a Tuple.
+- `**kwargs` stores keyword arguments in a Dictionary.
+- Lambda functions are useful for small operations.
+- Type hints improve readability and IDE support.
+- Docstrings document functions for future developers.
+
+---
+
+## Mistakes Corrected
+
+- Corrected confusion between `*args` and `**kwargs`.
+- Reinforced that keyword arguments reduce errors caused by argument order.
+- Improved understanding of writing production-friendly function signatures.
+
+---
+
+## Daily Coding Challenge
+
+### Problem
+
+Create `find_max(*numbers)` without using `max()`.
+
+### Difficulty
+
+⭐ Easy
+
+### Concepts
+
+- `*args`
+- Loops
+- Conditional Statements
+- Return Values
+
+### Time Complexity
+
+O(n)
+
+### Space Complexity
+
+O(1)
+
+---
+
+## Revision Coding Challenge
+
+Revised Concepts:
+
+- `*args`
+- Sets
+- Duplicate Removal
+- Return Values
+
+---
+
+## Tech Lead Feedback
+
+Today's lesson focused on writing flexible, maintainable, and scalable functions.
+
+Highlights:
+
+- Strong understanding of advanced function syntax.
+- Good use of type hints and docstrings.
+- Correct implementation of `*args` and `**kwargs`.
+- Continued improvement in writing reusable, modular code.
+
+Areas to Improve:
+
+- Reinforce the distinction between `*args` (Tuple) and `**kwargs` (Dictionary).
+- Prefer keyword arguments when functions have multiple parameters for improved readability.
+
+---
+
+## Interview Preparation
+
+### Basic Questions Covered
 
 - Default Parameters
-- Keyword Arguments
+- Positional vs Keyword Arguments
 - `*args`
 - `**kwargs`
 - Lambda Functions
-- Recursion Basics
 - Type Hints
 - Docstrings
-- Function Best Practices
+
+### Senior Engineer Questions Covered
+
+- Designing Flexible APIs
+- DRY Principle
+- Type Hints in Production
+- Docstring Best Practices
+- Choosing Between Lambda and Normal Functions
+
+---
+
+## Next Lesson
+
+Day 12 – Modules & File Handling
+
+Topics:
+
+- Modules
+- Packages
+- File Handling
+- Reading & Writing Files
+- Context Managers
+- Project Organization
 
