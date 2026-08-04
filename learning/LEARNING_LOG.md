@@ -1060,18 +1060,137 @@ Areas to Improve:
 - Docstring Best Practices
 - Choosing Between Lambda and Normal Functions
 
+## Lesson
+
+Day 12 – Modules & File Handling
+
+---
+
+## Completed
+
+- Learned Modules
+- Imported Built-in Modules
+- Created Custom Modules
+- Learned Packages
+- Read Files
+- Wrote Files
+- Appended Files
+- Used Context Managers (`with`)
+- Completed Hands-on Coding
+- Completed Assignment
+- Completed Daily Coding Challenge
+- Completed Revision Coding Challenge
+- Completed Quiz
+- Senior Code Review Completed
+- Tech Lead Review Completed
+
+---
+
+## Learnings
+
+- A Module is a Python file.
+- A Package is a folder containing multiple modules.
+- `import` is used to include modules.
+- `with` automatically closes files.
+- `"w"` overwrites existing files.
+- `"a"` appends new data.
+- Modules improve project organization.
+- File handling enables persistent storage.
+
+---
+
+## Mistakes Corrected
+
+- Corrected Module vs Package.
+- Learned why `with` is preferred over `close()`.
+- Identified hard-coded paths as a maintainability issue.
+
+---
+
+## Daily Coding Challenge
+
+### Problem
+
+Append travel destinations to a text file.
+
+### Difficulty
+
+⭐ Easy
+
+### Concepts
+
+- File Handling
+- Append Mode
+- Functions
+
+### Time Complexity
+
+O(1) amortized
+
+### Space Complexity
+
+O(1)
+
+---
+
+## Revision Coding Challenge
+
+Revised Concepts:
+
+- Functions
+- Sets
+- File Reading
+- Duplicate Removal
+
+---
+
+## Tech Lead Feedback
+
+Today's lesson focused on organizing software into reusable modules and persisting data through file handling.
+
+Highlights:
+
+- Good understanding of module creation and imports.
+- Strong use of context managers (`with`).
+- Correct implementation of reusable utility functions.
+- Good combination of file handling with sets.
+
+Areas to Improve:
+
+- Replace hard-coded paths with `pathlib`.
+- Add exception handling when reading files.
+
+---
+
+## Interview Preparation
+
+### Basic Questions Covered
+
+- Modules
+- Packages
+- Import Statements
+- File Modes
+- Context Managers
+
+### Senior Engineer Questions Covered
+
+- Project Structure
+- Utility Modules
+- Cross-platform File Handling
+- Resource Management
+
 ---
 
 ## Next Lesson
 
-Day 12 – Modules & File Handling
+Day 13 – Exception Handling
 
 Topics:
 
-- Modules
-- Packages
-- File Handling
-- Reading & Writing Files
-- Context Managers
-- Project Organization
+- try
+- except
+- else
+- finally
+- Raising Exceptions
+- Best Practices
 

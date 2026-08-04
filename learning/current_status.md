@@ -15,7 +15,7 @@
 
 ## Current Lesson
 
-**Day 12 – Modules & File Handling**
+**Day 13 – Exception Handling**
 
 ---
 
@@ -44,14 +44,15 @@
 - ✅ Day 9 – Sets
 - ✅ Day 10 – Functions (Part 1)
 - ✅ Day 11 – Functions (Part 2)
+- ✅ Day 12 – Modules & File Handling
 
 ---
 
 ## Current Progress
 
-Completed Lessons: **11 / 14**
+Completed Lessons: **12 / 14**
 
-Sprint Progress: **79% Complete**
+Sprint Progress: **86% Complete**
 
 ---
 
@@ -67,33 +68,34 @@ Sprint Progress: **79% Complete**
 - Tuples
 - Dictionaries
 - Sets
-- Functions (Fundamentals & Advanced)
+- Functions
+- Advanced Functions
+- Modules
+- Packages
+- File Handling
+- Context Managers
 - Type Hints
 - Docstrings
-- Lambda Functions
-- `*args` & `**kwargs`
 - Big-O Basics
-- Hash Tables (Introduction)
 
 ---
 
 ## Next Lesson
 
-**Day 12 – Modules & File Handling**
+**Day 13 – Exception Handling**
 
 Topics:
 
-- Importing Modules
-- Creating Custom Modules
-- Python Packages
-- Reading Files
-- Writing Files
-- File Modes
-- Context Manager (`with`)
-- Exception-safe File Handling
+- try
+- except
+- else
+- finally
+- Raising Exceptions
+- Custom Exceptions
+- Best Practices
 
 ---
 
 ## Next Goal
 
-Learn how to organize Python projects into multiple files and persist application data using file handling. This is an important step toward building production-ready backend applications.
+Learn how to write fault-tolerant Python applications that handle errors gracefully instead of crashing.

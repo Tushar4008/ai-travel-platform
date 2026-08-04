@@ -1,0 +1,11 @@
+Booking 1
+
+Thailand
+
+45000
+
+Booking 2
+
+Japan
+
+65000
