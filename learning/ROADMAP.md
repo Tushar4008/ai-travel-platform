@@ -37,16 +37,20 @@ This roadmap is based on one principle:
 
 > **Don't learn technologies. Build products. Technologies will come naturally.**
 
-Every sprint will include:
+## Daily Lesson Structure
 
-* 📖 Theory
-* 💻 Hands-on Coding
-* 📝 Assignment
-* ❓ Quiz
-* 🎯 Interview Questions
-* 🔍 Code Review
-* 🚀 Git Commit & Push
-* 📈 Sprint Review
+Every lesson includes:
+
+- Revision Quiz
+- Theory
+- Hands-on Coding
+- Assignment
+- Daily Coding Challenge
+- Interview Coding Problem
+- Complexity Analysis
+- Code Review
+- Notes
+- Interview Questions
 
 Every topic learned should directly contribute to the Wanderlust Wings platform.
 

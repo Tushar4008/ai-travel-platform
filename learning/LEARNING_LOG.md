@@ -1181,16 +1181,214 @@ Areas to Improve:
 
 ---
 
-## Next Lesson
+## Lesson
 
 Day 13 – Exception Handling
 
-Topics:
+---
 
-- try
-- except
-- else
-- finally
-- Raising Exceptions
-- Best Practices
+## Completed
+
+- Learned Python Exceptions
+- Learned `try`
+- Learned `except`
+- Learned `else`
+- Learned `finally`
+- Learned `raise`
+- Learned common Python exceptions
+- Introduced Custom Exceptions
+- Completed Hands-on Coding
+- Completed Assignment
+- Completed Daily Coding Challenge
+- Completed Revision Coding Challenge
+- Completed Interview Coding Problem
+- Completed 5-Minute Revision
+- Completed Quiz
+- Senior Code Review Completed
+- Tech Lead Review Completed
+
+---
+
+## Learnings
+
+- Exceptions occur during program execution.
+- `try` contains potentially risky code.
+- `except` handles exceptions.
+- `else` executes when no exception occurs.
+- `finally` executes regardless of success or failure.
+- `raise` is used to intentionally raise an exception.
+- Specific exceptions should generally be caught instead of using a bare `except`.
+- File handling can be combined with exception handling.
+- Sets provide efficient average-case membership checks.
+- A Set + List combination can remove duplicates while preserving order.
+
+---
+
+## Mistakes Corrected
+
+### 1. Interview Problem
+
+Initially attempted to remove duplicates by modifying the list while iterating.
+
+Problem:
+
+- Removing elements changes list indexes.
+- Elements can be skipped.
+- The original list is modified.
+
+Improved approach:
+
+- Use a Set to track seen elements.
+- Use a List to preserve order.
+
+Complexity:
+
+- Time: O(n) average
+- Space: O(n)
+
+### 2. Exception Handling
+
+Initially manually raised `ZeroDivisionError` after checking for zero.
+
+Improved approach:
+
+Allow Python to raise the exception naturally and handle it with `except ZeroDivisionError`.
+
+---
+
+## Daily Coding Challenge
+
+### Problem
+
+Create `safe_division(a, b)` that handles division by zero.
+
+### Difficulty
+
+⭐ Easy
+
+### Concepts
+
+- Functions
+- `try`
+- `except`
+- `raise`
+- Return values
+
+---
+
+## Revision Coding Challenge
+
+### Problem
+
+Create `load_packages()` that reads destinations from a file and returns a Set.
+
+If the file does not exist, return an empty Set.
+
+### Concepts
+
+- Functions
+- Sets
+- File Handling
+- Context Managers
+- Exception Handling
+
+---
+
+## Interview Problem
+
+### Problem
+
+Remove duplicate destinations while preserving their original order.
+
+### Pattern
+
+Set + List
+
+### Difficulty
+
+⭐ Easy
+
+### Result
+
+Solved with review required.
+
+### Optimal Complexity
+
+Time: O(n) average
+
+Space: O(n)
+
+### Key Learning
+
+Use a Set for fast membership checks and a List for maintaining output order.
+
+---
+
+## Quiz
+
+Score: **5/5**
+
+---
+
+## Code Review
+
+### Strengths
+
+- Good understanding of specific exceptions.
+- Correct use of `try`, `except`, `else`, and `finally`.
+- Good combination of file handling and exception handling.
+- Successfully used `raise` for validation.
+- Good understanding of Sets from previous lessons.
+
+### Areas to Improve
+
+- Avoid modifying collections while iterating.
+- Prefer meaningful exception messages.
+- Keep `try` blocks focused and small.
+- Continue improving interview-style solution explanations.
+
+---
+
+## Interview Preparation
+
+### Basic Questions Covered
+
+- Exceptions
+- `try`
+- `except`
+- `else`
+- `finally`
+- `raise`
+- Common Python exceptions
+
+### Senior Engineer Questions Covered
+
+- Specific vs bare exception handling
+- When to use `raise`
+- Validation vs exceptions
+- Keeping `try` blocks small
+- Appropriate use of `finally`
+
+---
+
+## Overall Score
+
+**9.2 / 10**
+
+---
+
+## Next Lesson
+
+Day 14 – Sprint 1 Final Lesson / Revision
+
+After Day 14:
+
+### Sprint 1 Review
+
+- Theory Assessment
+- Mixed Coding Assessment
+- Interview Questions
+- Mock Interview
+- Wanderlust Wings Feature
+- Sprint Performance Review
 
