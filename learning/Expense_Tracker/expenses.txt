@@ -1,0 +1,4 @@
+Shoes|Shopping|12000
+Dinner|Food|1200
+Toxic|Movie|700
+Perfume|Shopping|9000

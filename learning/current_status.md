@@ -1,205 +1,268 @@
-# 🎯 Current Status
+# CURRENT STATUS — AI Full Stack Journey
 
-**Project:** Wanderlust Wings
-**Repository:** ai-travel-platform
+## Project
 
----
-
-## Current Sprint
-
-**Sprint 1 – Python Core**
-
-**Status:** 🟨 In Progress
-
----
-
-## Current Lesson
-
-**Day 13 – Exception Handling**
-
----
-
-## Completed
-
-### Sprint 0 – Foundation
-
-- ✅ GitHub Repository Setup
-- ✅ Git Configuration
-- ✅ Project Folder Structure
-- ✅ ROADMAP.md
-- ✅ CURRENT_STATUS.md
-- ✅ LEARNING_LOG.md
-- ✅ LEARNING_APPROACH.md
-
-### Sprint 1 – Python Core
-
-- ✅ Day 1 – Python Fundamentals
-- ✅ Day 2 – Operators & Expressions
-- ✅ Day 3 – User Input & Strings
-- ✅ Day 4 – Control Statements
-- ✅ Day 5 – Loops
-- ✅ Day 6 – Lists
-- ✅ Day 7 – Tuples
-- ✅ Day 8 – Dictionaries
-- ✅ Day 9 – Sets
-- ✅ Day 10 – Functions (Part 1)
-- ✅ Day 11 – Functions (Part 2)
-- ✅ Day 12 – Modules & File Handling
-
----
-
-## Current Progress
-
-Completed Lessons: **12 / 14**
-
-Sprint Progress: **86% Complete**
-
----
-
-## Skills Learned
-
-- Variables & Data Types
-- Operators
-- Strings
-- User Input
-- Control Flow
-- Loops
-- Lists
-- Tuples
-- Dictionaries
-- Sets
-- Functions
-- Advanced Functions
-- Modules
-- Packages
-- File Handling
-- Context Managers
-- Type Hints
-- Docstrings
-- Big-O Basics
-
----
-
-# 🎯 Current Status
-
-**Project:** Wanderlust Wings  
-**Repository:** ai-travel-platform
-
----
+Wanderlust Wings — AI-Powered Travel Platform
 
 ## Current Sprint
 
-**Sprint 1 – Python Core**
-
-**Status:** 🟨 In Progress
-
----
-
-## Current Lesson
-
-**Day 14 – Sprint 1 Final Lesson / Revision**
-
----
-
-## Completed
-
-### Sprint 0 – Foundation
-
-- ✅ GitHub Repository Setup
-- ✅ Git Configuration
-- ✅ Project Folder Structure
-- ✅ ROADMAP.md
-- ✅ CURRENT_STATUS.md
-- ✅ LEARNING_LOG.md
-- ✅ LEARNING_APPROACH.md
-
-### Sprint 1 – Python Core
-
-- ✅ Day 1 – Python Fundamentals
-- ✅ Day 2 – Operators & Expressions
-- ✅ Day 3 – User Input & Strings
-- ✅ Day 4 – Control Statements
-- ✅ Day 5 – Loops
-- ✅ Day 6 – Lists
-- ✅ Day 7 – Tuples
-- ✅ Day 8 – Dictionaries
-- ✅ Day 9 – Sets
-- ✅ Day 10 – Functions (Part 1)
-- ✅ Day 11 – Functions (Part 2)
-- ✅ Day 12 – Modules & File Handling
-- ✅ Day 13 – Exception Handling
-
----
+Sprint 1 — Python Foundations & Problem-Solving Fundamentals
 
 ## Current Progress
 
-Completed Lessons: **13 / 14**
+### Day 14 — COMPLETED ✅
 
-Sprint Progress: **93% Complete**
+Completed an integrated Python mini project:
+
+# Expense Tracker CLI
+
+The project combined concepts learned during Days 1–13.
+
+## Features Completed
+
+* Add Expense
+* View Expenses
+* Calculate Total Expenses
+* Search Expenses by Category
+* Validate expense amount
+* Handle invalid user input
+* Load saved expenses from a file
+* Save expenses before exiting
+* Menu-driven application using `while True`
+* Graceful handling of invalid menu selections
+
+## Concepts Applied
+
+### Python Fundamentals
+
+* Variables
+* Strings
+* Type conversion
+* Input/output
+* Conditions
+* Loops
+
+### Collections
+
+* Lists
+* Dictionaries
+* Sets
+
+### Functions
+
+* Function definitions
+* Parameters
+* Return values
+* Separation of responsibilities
+
+### Exception Handling
+
+* `try`
+* `except`
+* `FileNotFoundError`
+* `ValueError`
+
+### File Handling
+
+* Read mode
+* Write mode
+* Context managers
+* Data serialization using a custom delimiter format
+* Loading file data back into Python objects
+
+### Problem-Solving
+
+Implemented category-wise expense aggregation.
+
+Initial approach:
+
+Nested loops
+
+Improved approach:
+
+Single loop + Dictionary
+
+Complexity:
+
+Time: O(n)
+
+Space: O(k)
 
 ---
 
-## Skills Learned
+# Key Engineering Improvements Made During Code Review
 
-- Variables & Data Types
-- Operators
-- Strings
-- User Input
-- Control Flow
-- Loops
-- Lists
-- Tuples
-- Dictionaries
-- Sets
-- Functions
-- Advanced Functions
-- Modules
-- Packages
-- File Handling
-- Context Managers
-- Exception Handling
-- `try`
-- `except`
-- `else`
-- `finally`
-- `raise`
-- Type Hints
-- Docstrings
-- Lambda Functions
-- Big-O Basics
-- Interview Problem Solving
+* Replaced unsafe `eval()` usage.
+* Added a continuous menu loop.
+* Used `continue` for invalid menu input.
+* Used `break` for application exit.
+* Separated saving logic from adding expense logic.
+* Ensured `load_expenses()` returns an empty list if no file exists.
+* Added positive amount validation.
+* Optimized category total calculation from a nested-loop approach to a single-pass dictionary-based approach.
+* Improved separation of responsibilities.
 
 ---
 
-## Interview Coding Progress
+# Current Skill Level
 
-- ✅ Daily coding challenges
-- ✅ Revision coding challenges
-- ✅ Interview-style coding problems introduced
-- ✅ Time complexity analysis
-- ✅ Space complexity analysis
-- ✅ Interview solution explanation
+## Python Fundamentals
+
+Strong foundation established.
+
+Comfortable with:
+
+* Variables
+* Strings
+* Input/output
+* Type conversion
+* Conditions
+* Loops
+
+## Collections
+
+Comfortable with:
+
+* Lists
+* Tuples
+* Dictionaries
+* Sets
+
+Understands basic use cases and average time complexity for common membership operations.
+
+## Functions
+
+Comfortable with:
+
+* Parameters
+* Return values
+* Default arguments
+* `*args`
+* `**kwargs`
+* Lambda functions
+* Type hints
+* Docstrings
+
+## File Handling
+
+Understands:
+
+* Reading files
+* Writing files
+* Appending files
+* Using `with open()`
+* Loading data from files
+
+## Exception Handling
+
+Understands:
+
+* `try`
+* `except`
+* `else`
+* `finally`
+* `raise`
+
+## Problem Solving
+
+Current focus:
+
+* Strengthening coding logic.
+* Revising previously learned concepts through coding problems.
+* Understanding time and space complexity.
+* Choosing appropriate data structures.
+* Optimizing naive solutions.
 
 ---
 
-## Next Lesson
+# Mini Projects Completed
 
-**Day 14 – Sprint 1 Final Lesson / Revision**
+## 1. Travel Package Programs
 
-Day 14 will consolidate the Python concepts learned throughout Sprint 1 and prepare for the Sprint Review.
+Applied:
+
+* Strings
+* Input handling
+* Conditions
+* Loops
+* Collections
+* Functions
+
+## 2. Expense Tracker CLI
+
+Applied:
+
+* Lists
+* Dictionaries
+* Sets
+* Functions
+* Loops
+* Exception handling
+* File handling
+* Algorithm optimization
 
 ---
 
-## Next Milestone
+# Current Learning Approach
 
-### Sprint 1 Review
+Each lesson follows:
 
-The review will include:
+Business Requirement
+↓
+Theory
+↓
+Hands-on Coding
+↓
+Daily Coding Challenge
+↓
+Revision Challenge
+↓
+Coding / Interview Problem
+↓
+Wanderlust Wings Connection
+↓
+Code Review
+↓
+Best Practices
 
-- Theory assessment
-- Mixed coding problems
-- Interview-style questions
-- Mock interview
-- Wanderlust Wings mini-feature
-- Strengths and weaknesses analysis
-- Personalized improvement plan
+The learning approach now also includes continuous problem-solving practice using previously learned concepts.
+
+---
+
+# Current Position
+
+Day 14 Completed ✅
+
+Next:
+
+# Day 15
+
+Focus will continue toward completing the remaining Sprint 1 concepts while strengthening:
+
+* Problem-solving
+* Code quality
+* Complexity analysis
+* Python project structure
+* Revision of previous topics
+
+---
+
+# Sprint Goal
+
+Build a strong foundation in:
+
+Python Fundamentals
++
+Problem Solving
++
+Data Structures
++
+Functions
++
+File Handling
++
+Exception Handling
++
+Code Organization
+
+Before moving deeper into backend and AI Full Stack development for Wanderlust Wings.

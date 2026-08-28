@@ -1371,24 +1371,269 @@ Score: **5/5**
 
 ---
 
-## Overall Score
+# LEARNING LOG
 
-**9.2 / 10**
+## Day 14 — Expense Tracker Mini Project
+
+### Status
+
+Completed ✅
 
 ---
 
-## Next Lesson
+# Objective
 
-Day 14 – Sprint 1 Final Lesson / Revision
+Build a command-line Expense Tracker application by integrating the Python concepts learned during the previous lessons.
 
-After Day 14:
+The goal was to move from isolated coding exercises toward building a complete application.
 
-### Sprint 1 Review
+---
 
-- Theory Assessment
-- Mixed Coding Assessment
-- Interview Questions
-- Mock Interview
-- Wanderlust Wings Feature
-- Sprint Performance Review
+# Features Implemented
+
+## 1. Add Expense
+
+Implemented functionality to:
+
+* Accept description.
+* Accept category.
+* Accept amount.
+* Validate amount.
+* Reject invalid input.
+* Reject zero and negative amounts.
+* Store the expense as a dictionary.
+* Add the expense to the expenses list.
+
+---
+
+## 2. View Expenses
+
+Implemented functionality to:
+
+* Display all expenses.
+* Handle the case where no expenses are available.
+
+---
+
+## 3. Calculate Total Expenses
+
+Implemented a function that loops through all expenses and calculates the total.
+
+Complexity:
+
+Time: O(n)
+
+Space: O(1)
+
+---
+
+## 4. Search by Category
+
+Implemented category-based searching.
+
+The program:
+
+1. Accepts a category.
+2. Loops through the expenses.
+3. Displays matching expenses.
+4. Displays a message if no category matches.
+
+---
+
+## 5. File Persistence
+
+Implemented:
+
+* Saving expenses to a text file.
+* Loading expenses when the application starts.
+* Reconstructing dictionaries from saved text.
+
+File format:
+
+Description|Category|Amount
+
+---
+
+## 6. Menu-Driven Application
+
+Implemented a continuous application loop using:
+
+while True
+
+Implemented:
+
+* `continue` for invalid menu input.
+* `break` when the user selects Exit.
+
+---
+
+# Code Review Learning
+
+The first version of the project had several issues.
+
+## Issue 1 — Unsafe `eval()`
+
+Initial approach used:
+
+eval()
+
+Problem:
+
+`eval()` can execute arbitrary Python code.
+
+Improvement:
+
+Used a structured text format and:
+
+split("|")
+
+to reconstruct the expense data.
+
+---
+
+## Issue 2 — Application Ran Only Once
+
+Initial menu executed only once.
+
+Improvement:
+
+Wrapped the menu inside:
+
+while True
+
+This allowed users to perform multiple operations.
+
+---
+
+## Issue 3 — Invalid Input Handling
+
+Improved invalid menu input handling using:
+
+try
+except ValueError
+continue
+
+---
+
+## Issue 4 — File Not Found
+
+Initially, `load_expenses()` could return `None`.
+
+Improvement:
+
+Return an empty list when the file does not exist.
+
+This guarantees that the caller receives a predictable list.
+
+---
+
+## Issue 5 — Expense Validation
+
+Added validation to ensure the amount is:
+
+* An integer.
+* Greater than 0.
+
+The application continues asking for input until valid data is entered.
+
+---
+
+## Issue 6 — Category Total Algorithm
+
+Initial approach used nested loops.
+
+Improved approach:
+
+Use a dictionary to store category totals while looping through expenses once.
+
+Concept:
+
+For each expense:
+
+If category exists:
+Add amount
+
+Otherwise:
+Create category
+
+Complexity:
+
+Time: O(n)
+
+Space: O(k)
+
+---
+
+# Important Concepts Reinforced
+
+* Lists
+* Dictionaries
+* Sets
+* Functions
+* Return values
+* Loops
+* `while True`
+* `break`
+* `continue`
+* Exception handling
+* File handling
+* Data persistence
+* Input validation
+* Dictionary membership
+* Time complexity
+* Space complexity
+* Code organization
+
+---
+
+# Key Takeaway
+
+Day 14 demonstrated how individual Python concepts work together in a real application.
+
+The project flow was:
+
+User Input
+↓
+Validation
+↓
+Business Logic
+↓
+Data Storage
+↓
+File Persistence
+
+The most important improvement was learning to iterate on code after review instead of considering the first working solution as the final solution.
+
+---
+
+# Senior Engineer Perspective
+
+Important lessons from this project:
+
+* Working code is not automatically good code.
+* Input validation is necessary.
+* Functions should have clear responsibilities.
+* Return types should be predictable.
+* Unsafe shortcuts such as `eval()` should be avoided.
+* Data structures should be selected based on the problem.
+* Algorithm efficiency matters.
+* Nested loops should be questioned when a single-pass solution is possible.
+* Code should be improved through review and iteration.
+
+---
+
+# Day 14 Completion
+
+Mini Project:
+
+Expense Tracker CLI
+
+Status:
+
+Completed ✅
+
+Next:
+
+Day 15 — Continue Sprint 1 with the next planned concept while adding revision and problem-solving practice from previously completed topics.
+
 
