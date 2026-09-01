@@ -1620,20 +1620,332 @@ Important lessons from this project:
 * Nested loops should be questioned when a single-pass solution is possible.
 * Code should be improved through review and iteration.
 
+# LEARNING LOG
+
+# Day 15 — Object-Oriented Programming
+
+## Status
+
+✅ Completed
+
 ---
 
-# Day 14 Completion
+# 🎯 Objective
 
-Mini Project:
+Learn the fundamentals of Object-Oriented Programming and understand how classes and objects can be used to model real-world entities.
 
-Expense Tracker CLI
+The lesson also continued the coding-problem track with an optimized Two Sum implementation.
 
-Status:
+---
 
-Completed ✅
+# 🧠 Concepts Learned
 
-Next:
+## Classes
 
-Day 15 — Continue Sprint 1 with the next planned concept while adding revision and problem-solving practice from previously completed topics.
+A class acts as a blueprint/template for creating objects.
+
+---
+
+## Objects
+
+Objects are instances of classes.
+
+One class can create many objects.
+
+Example:
+
+Traveler class
+↓
+traveler1
+traveler2
+traveler3
+
+---
+
+## `__init__()`
+
+Learned how `__init__()` is used to initialize an object's attributes when the object is created.
+
+Java comparison:
+
+Python `__init__()` ≈ Java constructor.
+
+---
+
+## `self`
+
+Learned that `self` refers to the current instance.
+
+Important distinction:
+
+name
+
+→ parameter/local variable
+
+self.name
+
+→ instance attribute
+
+---
+
+## Attributes
+
+Attributes represent object state/data.
+
+Examples:
+
+* name
+* age
+* country
+* price
+* destination
+
+---
+
+## Methods
+
+Methods represent object behavior.
+
+Examples:
+
+* display_profile()
+* check_international_eligibility()
+* calculate_discount()
+* is_luxury()
+
+---
+
+## Class vs Instance Attributes
+
+Learned that:
+
+Instance attributes belong to individual objects.
+
+Class attributes belong to the class and are generally shared by instances.
+
+---
+
+# 💻 Practical Work
+
+## Traveler Class
+
+Created a `Traveler` class with:
+
+* name
+* age
+* country
+* passport availability
+
+Implemented:
+
+* `display_profile()`
+* `check_international_eligibility()`
+
+---
+
+## TravelPackage Class
+
+Created a `TravelPackage` class with:
+
+* destination
+* price
+* days
+
+Implemented:
+
+* `display_package()`
+* `calculate_discount()`
+* `is_luxury()`
+
+---
+
+## Rectangle Class
+
+Created a Rectangle class with:
+
+* length
+* width
+
+Implemented:
+
+* `calculate_area()`
+* `calculate_perimeter()`
+
+---
+
+## PackageAnalyzer Class
+
+Created a `PackageAnalyzer` class that receives package data.
+
+Implemented:
+
+`get_luxury_packages()`
+
+Important code review lesson:
+
+When object state is stored as:
+
+self.packages
+
+methods should use:
+
+self.packages
+
+rather than relying on a global variable.
+
+---
+
+# 🔥 Coding Problem — Two Sum
+
+## Brute Force Approach
+
+Used nested loops to compare pairs.
+
+Complexity:
+
+Time: O(n²)
+
+Space: O(1), excluding output.
+
+---
+
+## Optimized Approach
+
+Used a dictionary to store:
+
+number → index
+
+For each number:
+
+required = target - current_number
+
+Then check whether the required value already exists.
+
+Complexity:
+
+Time: O(n)
+
+Space: O(n)
+
+---
+
+# 🧑‍💻 Code Review Learnings
+
+## Learning 1
+
+A working solution isn't necessarily the most efficient solution.
+
+The initial Two Sum solution worked but only checked adjacent elements.
+
+The correct brute-force solution checks every possible pair.
+
+---
+
+## Learning 2
+
+Using a dictionary does not automatically make an algorithm O(n).
+
+If we use another loop/search to find information inside the dictionary, we may lose the expected performance benefit.
+
+The optimized solution must use direct dictionary lookup.
+
+---
+
+## Learning 3
+
+Objects should operate on their own state.
+
+Prefer:
+
+self.packages
+
+over an unrelated global:
+
+packages
+
+---
+
+## Learning 4
+
+Don't automatically replace dictionaries with classes.
+
+Use OOP where classes provide meaningful structure, state, behavior, or business rules.
+
+---
+
+# 🎤 Interview Preparation
+
+Covered:
+
+* OOP definition
+* Class vs object
+* `__init__`
+* `self`
+* Instance attributes
+* Instance methods
+* Class attributes
+* Class vs instance attributes
+* Data and behavior together
+* Dictionary vs class
+* OOP in Expense Tracker
+* Two Sum complexity
+* Dictionary-based optimization
+* Separation of responsibilities
+
+---
+
+# 🌍 Wanderlust Wings Connection
+
+OOP can eventually model domain entities such as:
+
+Traveler
+TravelPackage
+Booking
+Flight
+Hotel
+Itinerary
+
+This provides a foundation for building more structured application components as Wanderlust Wings evolves.
+
+---
+
+# 🏆 Day 15 Achievement
+
+Successfully completed:
+
+* OOP fundamentals
+* Multiple class implementations
+* Object creation
+* Instance state
+* Instance behavior
+* Class/instance attribute concepts
+* Algorithm optimization
+* Two Sum O(n) solution
+* Senior Engineer code review
+
+---
+
+# 📌 Next
+
+Day 16
+
+Continue Python Core/OOP and problem-solving practice.
+
+The learning workflow continues to follow:
+
+Theory
+↓
+Hands-on Coding
+↓
+Coding Challenge
+↓
+Revision
+↓
+Interview Questions
+↓
+Code Review
+↓
+Wanderlust Wings Application
+
 
 

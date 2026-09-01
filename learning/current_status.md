@@ -1,138 +1,45 @@
-# CURRENT STATUS — AI Full Stack Journey
+# CURRENT STATUS
 
-## Project
+## 🚀 AI Full Stack Journey — Wanderlust Wings
 
-Wanderlust Wings — AI-Powered Travel Platform
+### Current Sprint
 
-## Current Sprint
+**Sprint 1 — Python Core**
 
-Sprint 1 — Python Foundations & Problem-Solving Fundamentals
+The roadmap defines Sprint 1 around Python fundamentals including Variables, Data Types, Operators, Control Statements, Functions, Collections, and OOP, with the Expense Tracker CLI as the mini project.
 
-## Current Progress
+---
 
-### Day 14 — COMPLETED ✅
+# 📊 Current Progress
 
-Completed an integrated Python mini project:
+## Day 15 — Completed ✅
 
-# Expense Tracker CLI
+### Today's Focus
 
-The project combined concepts learned during Days 1–13.
+**Object-Oriented Programming — Classes & Objects**
 
-## Features Completed
+---
 
-* Add Expense
-* View Expenses
-* Calculate Total Expenses
-* Search Expenses by Category
-* Validate expense amount
-* Handle invalid user input
-* Load saved expenses from a file
-* Save expenses before exiting
-* Menu-driven application using `while True`
-* Graceful handling of invalid menu selections
-
-## Concepts Applied
+# 📚 Completed Topics
 
 ### Python Fundamentals
 
 * Variables
-* Strings
-* Type conversion
-* Input/output
+* Data Types
+* Operators
 * Conditions
 * Loops
+* Input Handling
+* Strings
 
 ### Collections
 
 * Lists
-* Dictionaries
+* Tuples
 * Sets
+* Dictionaries
 
 ### Functions
-
-* Function definitions
-* Parameters
-* Return values
-* Separation of responsibilities
-
-### Exception Handling
-
-* `try`
-* `except`
-* `FileNotFoundError`
-* `ValueError`
-
-### File Handling
-
-* Read mode
-* Write mode
-* Context managers
-* Data serialization using a custom delimiter format
-* Loading file data back into Python objects
-
-### Problem-Solving
-
-Implemented category-wise expense aggregation.
-
-Initial approach:
-
-Nested loops
-
-Improved approach:
-
-Single loop + Dictionary
-
-Complexity:
-
-Time: O(n)
-
-Space: O(k)
-
----
-
-# Key Engineering Improvements Made During Code Review
-
-* Replaced unsafe `eval()` usage.
-* Added a continuous menu loop.
-* Used `continue` for invalid menu input.
-* Used `break` for application exit.
-* Separated saving logic from adding expense logic.
-* Ensured `load_expenses()` returns an empty list if no file exists.
-* Added positive amount validation.
-* Optimized category total calculation from a nested-loop approach to a single-pass dictionary-based approach.
-* Improved separation of responsibilities.
-
----
-
-# Current Skill Level
-
-## Python Fundamentals
-
-Strong foundation established.
-
-Comfortable with:
-
-* Variables
-* Strings
-* Input/output
-* Type conversion
-* Conditions
-* Loops
-
-## Collections
-
-Comfortable with:
-
-* Lists
-* Tuples
-* Dictionaries
-* Sets
-
-Understands basic use cases and average time complexity for common membership operations.
-
-## Functions
-
-Comfortable with:
 
 * Parameters
 * Return values
@@ -143,126 +50,175 @@ Comfortable with:
 * Type hints
 * Docstrings
 
-## File Handling
+### Modules & File Handling
 
-Understands:
+* Modules
+* Packages
+* File reading
+* File writing
+* File appending
+* Context managers
+* Data persistence
 
-* Reading files
-* Writing files
-* Appending files
-* Using `with open()`
-* Loading data from files
-
-## Exception Handling
-
-Understands:
+### Exception Handling
 
 * `try`
 * `except`
 * `else`
 * `finally`
 * `raise`
+* `ValueError`
+* `FileNotFoundError`
+* `IndexError`
+* `ZeroDivisionError`
 
-## Problem Solving
+### OOP
 
-Current focus:
+* Classes
+* Objects
+* `__init__`
+* `self`
+* Instance attributes
+* Instance methods
+* Class attributes
+* Class vs instance attributes
+* Modeling entities with classes
 
-* Strengthening coding logic.
-* Revising previously learned concepts through coding problems.
-* Understanding time and space complexity.
-* Choosing appropriate data structures.
-* Optimizing naive solutions.
+### Problem Solving
+
+* Brute-force Two Sum
+* Dictionary-based Two Sum
+* Time complexity
+* Space complexity
+* Data structure selection
+* Algorithm optimization
 
 ---
 
-# Mini Projects Completed
+# 🏗️ Mini Projects
 
-## 1. Travel Package Programs
+## Travel Package Programs
 
-Applied:
+Status:
 
-* Strings
-* Input handling
-* Conditions
-* Loops
-* Collections
-* Functions
+✅ Completed
 
-## 2. Expense Tracker CLI
+---
 
-Applied:
+## Expense Tracker CLI
+
+Status:
+
+✅ Completed
+
+Concepts integrated:
 
 * Lists
 * Dictionaries
 * Sets
 * Functions
 * Loops
+* Conditions
 * Exception handling
 * File handling
+* Modules
+* Input validation
+* Data persistence
 * Algorithm optimization
 
 ---
 
-# Current Learning Approach
+# 🧠 Problem-Solving Progress
 
-Each lesson follows:
+The learning approach now includes coding problems alongside lessons.
 
-Business Requirement
-↓
-Theory
-↓
-Hands-on Coding
-↓
-Daily Coding Challenge
-↓
-Revision Challenge
-↓
-Coding / Interview Problem
-↓
-Wanderlust Wings Connection
-↓
-Code Review
-↓
-Best Practices
+Recent progression:
 
-The learning approach now also includes continuous problem-solving practice using previously learned concepts.
+Brute Force
+↓
+Identify repeated searching
+↓
+Dictionary lookup
+↓
+O(n²)
+↓
+O(n)
+
+Current focus:
+
+* LeetCode Easy problems
+* Gradual introduction of Medium problems
+* Revisiting previously learned Python concepts
+* Explaining time and space complexity
 
 ---
 
-# Current Position
+# 🎯 Current Skill Focus
 
-Day 14 Completed ✅
+Strongening:
 
-Next:
-
-# Day 15
-
-Focus will continue toward completing the remaining Sprint 1 concepts while strengthening:
-
-* Problem-solving
+* Python fundamentals
+* OOP fundamentals
+* Data structure selection
+* Algorithmic thinking
 * Code quality
 * Complexity analysis
-* Python project structure
-* Revision of previous topics
+* Clean code
+* Separation of responsibilities
 
 ---
 
-# Sprint Goal
+# 🌍 Wanderlust Wings Application
 
-Build a strong foundation in:
+OOP will eventually be applied to domain entities such as:
 
-Python Fundamentals
-+
-Problem Solving
-+
-Data Structures
-+
-Functions
-+
-File Handling
-+
-Exception Handling
-+
-Code Organization
+* Traveler
+* TravelPackage
+* Booking
+* Flight
+* Hotel
+* Itinerary
 
-Before moving deeper into backend and AI Full Stack development for Wanderlust Wings.
+The learning approach is designed to first learn concepts through focused mini projects and then apply them to Wanderlust Wings.
+
+---
+
+# 🏆 Day 15 Assessment
+
+Overall:
+
+**9/10**
+
+Strong understanding of:
+
+* Class vs object
+* `__init__`
+* `self`
+* Instance attributes
+* Instance methods
+* OOP modeling
+* Dictionary-based algorithm optimization
+
+Areas to reinforce:
+
+* `self.name` vs `name`
+* Class attributes vs instance attributes
+* OOP design and separation of responsibilities
+
+---
+
+# 📌 Current Day
+
+**Day 15 — Complete ✅**
+
+### Next
+
+**Day 16**
+
+Continue Python Core/OOP while maintaining:
+
+* Daily coding problem
+* Previous-topic revision
+* Interview preparation
+* Code review
+* Wanderlust Wings connection
