@@ -12,11 +12,11 @@ The roadmap defines Sprint 1 around Python fundamentals including Variables, Dat
 
 # 📊 Current Progress
 
-## Day 15 — Completed ✅
+## Day 16 — Completed ✅
 
 ### Today's Focus
 
-**Object-Oriented Programming — Classes & Objects**
+**OOP Deep Dive — Encapsulation, Properties & Object State**
 
 ---
 
@@ -82,7 +82,17 @@ The roadmap defines Sprint 1 around Python fundamentals including Variables, Dat
 * Instance methods
 * Class attributes
 * Class vs instance attributes
-* Modeling entities with classes
+* Encapsulation
+* Public/protected/private conventions
+* Name mangling
+* `@property`
+* Property getters
+* Property setters
+* Read-only properties
+* Computed properties
+* Object invariants
+* Attribute validation
+* Domain-level validation
 
 ### Problem Solving
 
@@ -92,6 +102,9 @@ The roadmap defines Sprint 1 around Python fundamentals including Variables, Dat
 * Space complexity
 * Data structure selection
 * Algorithm optimization
+* Duplicate detection using Sets
+* Stack-based problem solving
+* Valid Parentheses problem
 
 ---
 
@@ -135,30 +148,44 @@ The learning approach now includes coding problems alongside lessons.
 Recent progression:
 
 Brute Force
+
 ↓
+
 Identify repeated searching
+
 ↓
+
 Dictionary lookup
+
 ↓
+
 O(n²)
+
 ↓
+
 O(n)
 
-Current focus:
+The problem-solving track has now expanded to include:
 
 * LeetCode Easy problems
 * Gradual introduction of Medium problems
 * Revisiting previously learned Python concepts
 * Explaining time and space complexity
+* Selecting appropriate data structures
+* Set-based duplicate detection
+* Stack-based problem solving
 
 ---
 
 # 🎯 Current Skill Focus
 
-Strongening:
+Strengthening:
 
 * Python fundamentals
 * OOP fundamentals
+* Encapsulation
+* Object state management
+* Properties and validation
 * Data structure selection
 * Algorithmic thinking
 * Code quality
@@ -179,11 +206,23 @@ OOP will eventually be applied to domain entities such as:
 * Hotel
 * Itinerary
 
+Day 16 introduced an important design principle:
+
+Objects should protect their own valid state.
+
+Examples:
+
+* Traveler age should not be negative.
+* TravelPackage price should not be negative.
+* TravelPackage days should be positive.
+* TravelPackage destination should not be empty.
+* Discount should not be negative.
+
 The learning approach is designed to first learn concepts through focused mini projects and then apply them to Wanderlust Wings.
 
 ---
 
-# 🏆 Day 15 Assessment
+# 🏆 Day 16 Assessment
 
 Overall:
 
@@ -191,34 +230,40 @@ Overall:
 
 Strong understanding of:
 
-* Class vs object
-* `__init__`
-* `self`
-* Instance attributes
-* Instance methods
-* OOP modeling
-* Dictionary-based algorithm optimization
+* Encapsulation
+* Properties
+* Getters and setters
+* Read-only properties
+* Computed properties
+* Object invariants
+* Attribute validation
+* Set-based duplicate detection
+* Stack-based problem solving
 
 Areas to reinforce:
 
-* `self.name` vs `name`
+* When to use a property vs a normal method
 * Class attributes vs instance attributes
-* OOP design and separation of responsibilities
+* Keeping validation responsibilities at the correct layer
+* Designing domain classes without putting excessive business logic inside them
+* Stack-based problem solving patterns
 
 ---
 
 # 📌 Current Day
 
-**Day 15 — Complete ✅**
+**Day 16 — Complete ✅**
 
 ### Next
 
-**Day 16**
+**Day 17**
 
 Continue Python Core/OOP while maintaining:
 
 * Daily coding problem
 * Previous-topic revision
 * Interview preparation
+* Senior Engineer interview questions
 * Code review
+* Complexity analysis
 * Wanderlust Wings connection

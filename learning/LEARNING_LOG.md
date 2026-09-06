@@ -1947,5 +1947,91 @@ Code Review
 ↓
 Wanderlust Wings Application
 
+# Day 16 — OOP Deep Dive
+
+## Status
+
+✅ Completed
+
+---
+
+# 🎯 Objective
+
+Deepen the understanding of Object-Oriented Programming by learning how to protect object state, validate attributes, and control how object data is accessed and modified.
+
+The lesson also continued the coding-problem track with Set-based duplicate detection and a Stack-based Valid Parentheses implementation.
+
+---
+
+# 🧠 Concepts Learned
+
+## Encapsulation
+
+Learned that encapsulation means keeping an object's data and the behavior that operates on that data together.
+
+The goal is to make objects responsible for maintaining their own valid state.
+
+---
+
+## Object State
+
+An object should maintain a valid state throughout its lifetime.
+
+For example:
+
+A TravelPackage should not allow:
+
+* Negative price
+* Negative/zero duration
+* Empty destination
+* Negative discount
+
+---
+
+## Public / Protected / Private Conventions
+
+Learned Python's naming conventions:
+
+`attribute`
+
+→ Public attribute
+
+`_attribute`
+
+→ Convention indicating internal/protected use
+
+`__attribute`
+
+→ Triggers name mangling
+
+Important distinction:
+
+Python does not enforce private attributes in the same way Java does.
+
+---
+
+## Name Mangling
+
+Learned that using:
+
+`__age`
+
+causes Python to perform name mangling.
+
+This helps reduce accidental access or overriding of internal attributes.
+
+It is not the same as true private access control.
+
+---
+
+## `@property`
+
+Learned that `@property` allows a method to be accessed like an attribute.
+
+Example:
+
+```python
+traveler.age
+
 
 
