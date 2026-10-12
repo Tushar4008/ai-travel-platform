@@ -2034,4 +2034,47 @@ Example:
 traveler.age
 
 
+## Day 17 | 12 Oct 2026
+
+### Sprint
+Sprint 1 — Python Core
+
+### Objective
+Learn inheritance, method overriding, `super()`, and the difference between inheritance and composition.
+
+### Completed
+- Implemented `Traveler` and `InternationalTraveler`.
+- Used `super().__init__()` to initialize inherited attributes.
+- Overrode `travel_message()` and profile display behavior.
+- Implemented international travel eligibility.
+- Created `PremiumPackage` and `LuxuryPackage`.
+- Implemented package analysis using sets and lists.
+- Practiced the Best Time to Buy and Sell Stock problem.
+- Reviewed brute-force and optimized algorithm approaches.
+
+### Learnings
+- Inheritance supports reuse and specialization.
+- `super()` avoids duplicating parent initialization and business logic.
+- Method overriding enables polymorphic behavior.
+- Composition represents HAS-A relationships; inheritance represents IS-A relationships.
+- Tracking the minimum price so far improves stock profit calculation from O(n²) to O(n).
+- Descriptive variable names and consistent return behavior improve maintainability.
+
+### Challenges
+- Distinguishing list indexes from stock prices.
+- Initializing the minimum price correctly.
+- Maintaining the best profit instead of only the current profit.
+- Returning all required outputs from the package analyzer.
+- Reusing the base price calculation in `LuxuryPackage`.
+
+### Pending
+- Complete Day 17 interview questions.
+- Verify the final optimized stock solution.
+- Complete the final assessment and code review.
+- Confirm all remaining exercises before marking Day 17 complete.
+
+### Next
+Finish the Day 17 assessment and consolidate the OOP concepts before advancing.
+
+
 
